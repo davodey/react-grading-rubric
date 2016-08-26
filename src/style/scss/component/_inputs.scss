@@ -7,16 +7,15 @@
   }
   
   select {
-	width:120%;
 	cursor:pointer;
   }
   
   .select-container{
-	padding-right:5px;
+	width:100px;
 	select {
 	  appearance: none;
 	  border:0;
-	  background-color:$white;
+	  background:$white;
 	}
   }
 }

@@ -56,3 +56,8 @@
   align-items: center;
   justify-content:center;
 }
+
+@mixin create-box($size) {
+  width:$size;
+  height:$size;
+}

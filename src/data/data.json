@@ -1,0 +1,2101 @@
+{
+  "systemRubrics":[
+    {
+      "_id":"d5b4aceb-6bcb-4116-a44e-72be5a92ed2e",
+      "systemRubric":true,
+      "title":"CIVIC ENGAGEMENT VALUE RUBRIC",
+      "product":"MS",
+      "createDate":1471901122,
+      "criterias":[
+        {
+          "title":"Diversity of Communities and Cultures",
+          "weight":50,
+          "description":"How well can the speaker adapt to different audiences",
+          "rowNum":1,
+          "items":[
+            {
+              "desc":"Demonstrates evidence of adjustment in own attitudes and beliefs because of working within and learning from diversity of communities and cultures. Promotes others' engagement with diversity.",
+              "number":1,
+              "itemRow":1,
+              "weight":null
+            },
+            {
+              "desc":"Reflects on how own attitudes and beliefs are different from those of other cultures and communities. Exhibits curiosity about what can be learned from diversity of communities and cultures.",
+              "number":2,
+              "itemRow":1,
+              "weight":null
+            },
+            {
+              "desc":"Has awareness that own attitudes and beliefs are different from those of other cultures and communities. Exhibits little curiosity about what can be learned from diversity communities and cultures.",
+              "number":3,
+              "itemRow":1,
+              "weight":null
+            },
+            {
+              "desc":"Expresses attitudes and beliefs as an individual, from a one-sided view. Is indifferent or resistant to what can be learned from diversity of communities and cultures.",
+              "number":4,
+              "itemRow":1,
+              "weight":null
+            }
+          ],
+          "itemCounter":[
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "title":"Analysis of Knowledge",
+          "weight":50,
+          "description":"How well is the material presented covered",
+          "rowNum":1,
+          "items":[
+            {
+              "desc":"Connects and extends knowledge (facts, theories, etc.) from one's own academic study/field/discipline to civic engagement and to one's own participation in civic life, politics, and government.' engagement with diversity.",
+              "number":1,
+              "itemRow":2,
+              "weight":null
+            },
+            {
+              "desc":"Analyzes knowledge (facts, theories, etc.) from one's own academic study/field/discipline making relevant connections to civic engagement and to one's own participation in civic life, politics, and government.",
+              "number":2,
+              "itemRow":2,
+              "weight":null
+            },
+            {
+              "desc":"Begins to connect knowledge (facts, theories, etc.) from one's own academic study/field/discipline to civic engagement and to tone's own participation in civic life, politics, and government.",
+              "number":3,
+              "itemRow":2,
+              "weight":null
+            },
+            {
+              "desc":"Begins to identify knowledge (facts, theories, etc.) from one's own academic study/field/discipline that is relevant to civic engagement and to one's own participation in civic life, politics, and government.",
+              "number":4,
+              "itemRow":2,
+              "weight":null
+            }
+          ]
+        },
+        {
+          "title":"Civic Identity and Commitment",
+          "weight":50,
+          "description":"Do you show concern for the community",
+          "rowNum":1,
+          "items":[
+            {
+              "desc":"Provides evidence of experience in civic-engagement activities and describes what she/he has learned about her or himself as it relates to a reinforced and clarified sense of civic identity and continued commitment to public action.",
+              "number":1,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"Provides evidence of experience in civic-engagement activities and describes what she/he has learned about her or himself as it relates to a growing sense of civic identity and commitment.",
+              "number":2,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"Evidence suggests involvement in civic-engagement activities is generated from expectations or course requirements rather than from a sense of civic identity.",
+              "number":3,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"Provides little evidence of her/his experience in civic-engagement activities and does not connect experiences to civic identity.",
+              "number":4,
+              "itemRow":3,
+              "weight":null
+            }
+          ]
+        },
+        {
+          "title":"Civic Communication",
+          "weight":50,
+          "description":"How well do you communicate with the community",
+          "rowNum":1,
+          "items":[
+            {
+              "desc":"Tailors communication strategies to effectively express, listen, and adapt to others to establish relationships to further civic action",
+              "number":1,
+              "itemRow":4,
+              "weight":null
+            },
+            {
+              "desc":"Effectively communicates in civic context, showing ability to do all of the following: express, listen, and adapt ideas and messages based on others' perspectives.",
+              "number":2,
+              "itemRow":4,
+              "weight":null
+            },
+            {
+              "desc":"Communicates in civic context, showing ability to do more than one of the following: express, listen, and adapt ideas and messages based on others' perspectives.",
+              "number":3,
+              "itemRow":4,
+              "weight":null
+            },
+            {
+              "desc":"Communicates in civic context, showing ability to do one of the following: express, listen, and adapt ideas and messages based on others' perspectives.",
+              "number":4,
+              "itemRow":4,
+              "weight":null
+            }
+          ]
+        },
+        {
+          "title":"Civic Action and Reflection",
+          "weight":50,
+          "description":"How involved are you in the community",
+          "rowNum":1,
+          "items":[
+            {
+              "desc":"Demonstrates independent experience and shows initiative in team leadership of complex or multiple civic engagement activities, accompanied by reflective insights or analysis about the aims and accomplishments of one’s actions.",
+              "number":1,
+              "itemRow":5,
+              "weight":null
+            },
+            {
+              "desc":"Demonstrates independent experience and team leadership of civic action, with reflective insights or analysis about the aims and accomplishments of one’s actions.",
+              "number":2,
+              "itemRow":5,
+              "weight":null
+            },
+            {
+              "desc":"Has clearly participated in civically focused actions and begins to reflect or describe how these actions may benefit individual(s) or communities.",
+              "number":3,
+              "itemRow":5,
+              "weight":null
+            },
+            {
+              "desc":"Has experimented with some civic activities but shows little internalized understanding of their aims or effects and little commitment to future action.",
+              "number":4,
+              "itemRow":5,
+              "weight":null
+            }
+          ]
+        },
+        {
+          "title":"Civic Contexts/Structures",
+          "weight":50,
+          "description":"How well do you use relevant examples from the community",
+          "rowNum":1,
+          "items":[
+            {
+              "desc":"Demonstrates ability and commitment to collaboratively work across and within community contexts and structures to achieve a civic aim.",
+              "number":1,
+              "itemRow":6,
+              "weight":null
+            },
+            {
+              "desc":"Demonstrates ability and commitment to work actively within community contexts and structures to achieve a civic aim.",
+              "number":2,
+              "itemRow":6,
+              "weight":null
+            },
+            {
+              "desc":"Demonstrates experience identifying intentional ways to participate in civic contexts and structures.",
+              "number":3,
+              "itemRow":6,
+              "weight":null
+            },
+            {
+              "desc":"Experiments with civic contexts and structures, tries out a few to see what fits.",
+              "number":4,
+              "itemRow":6,
+              "weight":null
+            }
+          ]
+        }
+      ],
+      "cols":[
+        {
+          "title":"Poor",
+          "points":25,
+          "description":"",
+          "colNum":1
+        },
+        {
+          "title":"Fair",
+          "points":50,
+          "description":"",
+          "colNum":2
+        },
+        {
+          "title":"Average",
+          "points":75,
+          "description":"",
+          "colNum":3
+        },
+        {
+          "title":"Exemplary",
+          "points":100,
+          "description":"",
+          "colNum":4
+        }
+      ],
+      "rubric_type":"CIVIC-ENGAGEMENT",
+      "column_scale":"low-to-high"
+    },
+    {
+      "_id":"0ebbb4bd-eb93-488b-b21d-79e3a2ea78e3",
+      "systemRubric":true,
+      "title":"ORAL COMMUNICATION VALUE RUBRIC",
+      "product":"MS",
+      "createDate":1471901122,
+      "criterias":[
+        {
+          "title":"Organization",
+          "weight":50,
+          "description":"How well can you organize your thoughts for a coherent presetation",
+          "rowNum":1,
+          "items":[
+            {
+              "desc":"Organizational pattern (specific introduction and conclusion, sequenced material within the body, and transitions) is clearly and consistently observable and is skillful and makes the content of the presentation cohesive.",
+              "number":1,
+              "itemRow":1,
+              "weight":null
+            },
+            {
+              "desc":"Organizational pattern (specific introduction and conclusion, sequenced material within the body, and transitions) is clearly and consistently observable within the presentation.",
+              "number":2,
+              "itemRow":1,
+              "weight":null
+            },
+            {
+              "desc":"Organizational pattern (specific introduction and conclusion, sequenced material within the body, and transitions) is intermittently observable within the presentation.",
+              "number":3,
+              "itemRow":1,
+              "weight":null
+            },
+            {
+              "desc":"Organizational pattern (specific introduction and conclusion, sequenced material within the body, and transitions) is not observable within the presentation.",
+              "number":4,
+              "itemRow":1,
+              "weight":null
+            }
+          ],
+          "itemCounter":[
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "title":"Language",
+          "weight":50,
+          "description":"How well do you use language",
+          "rowNum":1,
+          "items":[
+            {
+              "desc":"Language choices are imaginative, memorable, and compelling, and enhance the effectiveness of the presentation. Language in presentation is appropriate to audience.",
+              "number":1,
+              "itemRow":2,
+              "weight":null
+            },
+            {
+              "desc":"Language choices are thoughtful and generally support the effectiveness of the presentation. Language in presentation is appropriate to audience.",
+              "number":2,
+              "itemRow":2,
+              "weight":null
+            },
+            {
+              "desc":"Language choices are mundane and commonplace and partially support the effectiveness of the presentation. Language in presentation is appropriate to audience.",
+              "number":3,
+              "itemRow":2,
+              "weight":null
+            },
+            {
+              "desc":"Language choices are unclear and minimally support the effectiveness of the presentation. Language in presentation is not appropriate to audience.",
+              "number":4,
+              "itemRow":2,
+              "weight":null
+            }
+          ]
+        },
+        {
+          "title":"Delivery",
+          "weight":50,
+          "description":"How well do you deliver your speech",
+          "rowNum":1,
+          "items":[
+            {
+              "desc":"Delivery techniques (posture, gesture, eye contact, and vocal expressiveness) make the presentation compelling, and speaker appears polished and confident.",
+              "number":1,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"Delivery techniques (posture, gesture, eye contact, and vocal expressiveness) make the presentation interesting, and speaker appears comfortable.",
+              "number":2,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"Delivery techniques (posture, gesture, eye contact, and vocal expressiveness) make the presentation understandable, and speaker appears tentative.",
+              "number":3,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"Delivery techniques (posture, gesture, eye contact, and vocal expressiveness) detract from the understandability of the presentation, and speaker appears uncomfortable.",
+              "number":4,
+              "itemRow":3,
+              "weight":null
+            }
+          ]
+        },
+        {
+          "title":"Supporting Material",
+          "weight":50,
+          "description":"How well do you visualize your argument to the audience",
+          "rowNum":1,
+          "items":[
+            {
+              "desc":"A variety of types of supporting materials (explanations, examples, illustrations, statistics, analogies, quotations from relevant authorities) make appropriate reference to information or analysis that significantly supports the presentation or establishes the presenter's credibility/authority on the topic.",
+              "number":1,
+              "itemRow":4,
+              "weight":null
+            },
+            {
+              "desc":"Supporting materials (explanations, examples, illustrations, statistics, analogies, quotations from relevant authorities) make appropriate reference to information or analysis that generally supports the presentation or establishes the presenter's credibility/authority on the topic.",
+              "number":2,
+              "itemRow":4,
+              "weight":null
+            },
+            {
+              "desc":"Supporting materials (explanations, examples, illustrations, statistics, analogies, quotations from relevant authorities) make appropriate reference to information or analysis that partially supports the presentation or establishes the presenter's credibility/authority on the topic.",
+              "number":3,
+              "itemRow":4,
+              "weight":null
+            },
+            {
+              "desc":"Insufficient supporting materials (explanations, examples, illustrations, statistics, analogies, quotations from relevant authorities) make reference to information or analysis that minimally supports the presentation or establishes the presenter's credibility/authority on the topic.",
+              "number":4,
+              "itemRow":4,
+              "weight":null
+            }
+          ]
+        },
+        {
+          "title":"Central Message",
+          "weight":50,
+          "description":"How well do you stay on your key point",
+          "rowNum":1,
+          "items":[
+            {
+              "desc":"Central message is compelling (precisely stated, appropriately repeated, memorable, and strongly supported.)",
+              "number":1,
+              "itemRow":5,
+              "weight":null
+            },
+            {
+              "desc":"Central message is clear and consistent with the supporting material.",
+              "number":2,
+              "itemRow":5,
+              "weight":null
+            },
+            {
+              "desc":"Central message is basically understandable but is not often repeated and is not memorable.",
+              "number":3,
+              "itemRow":5,
+              "weight":null
+            },
+            {
+              "desc":"Central message can be deduced, but is not explicitly stated in the presentation.",
+              "number":4,
+              "itemRow":5,
+              "weight":null
+            }
+          ]
+        }
+      ],
+      "cols":[
+        {
+          "title":"Poor",
+          "points":25,
+          "description":"",
+          "colNum":1
+        },
+        {
+          "title":"Fair",
+          "points":50,
+          "description":"",
+          "colNum":2
+        },
+        {
+          "title":"Average",
+          "points":75,
+          "description":"",
+          "colNum":3
+        },
+        {
+          "title":"Exemplary",
+          "points":100,
+          "description":"",
+          "colNum":4
+        }
+      ],
+      "rubric_type":"ORAL-COMMUNICATION",
+      "column_scale":"low-to-high"
+    },
+    {
+      "_id":"0efa5da9-4847-4f00-b70c-d6093811106f",
+      "systemRubric":true,
+      "title":"CREATIVE THINKING VALUE RUBRIC",
+      "product":"MS",
+      "createDate":1471901122,
+      "criterias":[
+        {
+          "title":"Acquiring Competencies",
+          "weight":50,
+          "description":"This step refers to acquiring strategies and skills within a particular domain.",
+          "rowNum":1,
+          "items":[
+            {
+              "desc":"Reflect: Evaluates creative process and product using domain-appropriate criteria.",
+              "number":1,
+              "itemRow":1,
+              "weight":null
+            },
+            {
+              "desc":"Create: Creates an entirely new object, solution or idea that is appropriate to the domain.",
+              "number":2,
+              "itemRow":1,
+              "weight":null
+            },
+            {
+              "desc":"Adapt: Successfully adapts an appropriate exemplar to his/her own specifications.",
+              "number":3,
+              "itemRow":1,
+              "weight":null
+            },
+            {
+              "desc":"Model: Successfully reproduces an appropriate exemplar.",
+              "number":4,
+              "itemRow":1,
+              "weight":null
+            }
+          ],
+          "itemCounter":[
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "title":"Taking Risks",
+          "weight":50,
+          "description":"May include personal risk (fear of embarrassment or rejection) or risk of failure in successfully completing assignment, i.e. going beyond original parameters of assignment, introducing new materials and forms, tackling controversial topics, advocating unpopular ideas or solutions.",
+          "rowNum":1,
+          "items":[
+            {
+              "desc":"Actively seeks out and follows through on untested and potentially risky directions or approaches to the assignment in the final product.",
+              "number":1,
+              "itemRow":2,
+              "weight":null
+            },
+            {
+              "desc":"Incorporates new directions or approaches to the assignment in the final product.",
+              "number":2,
+              "itemRow":2,
+              "weight":null
+            },
+            {
+              "desc":"Considers new directions or approaches without going beyond the guidelines of the assignment.",
+              "number":3,
+              "itemRow":2,
+              "weight":null
+            },
+            {
+              "desc":"Stays strictly within the guidelines of the assignment.",
+              "number":4,
+              "itemRow":2,
+              "weight":null
+            }
+          ]
+        },
+        {
+          "title":"Solving Problems",
+          "weight":50,
+          "description":"",
+          "rowNum":1,
+          "items":[
+            {
+              "desc":"Not only develops a logical, consistent plan to solve problem, but recognizes consequences of solution and can articulate reason for choosing solution.",
+              "number":1,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"Having selected from among alternatives, develops a logical, consistent plan to solve the problem.",
+              "number":2,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"Considers and rejects less acceptable approaches to solving problem.",
+              "number":3,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"Only a single approach is considered and is used to solve the problem.",
+              "number":4,
+              "itemRow":3,
+              "weight":null
+            }
+          ]
+        },
+        {
+          "title":"Embracing Contradictions",
+          "weight":50,
+          "description":"",
+          "rowNum":1,
+          "items":[
+            {
+              "desc":"Integrates alternate, divergent, or contradictory perspectives or ideas fully.",
+              "number":1,
+              "itemRow":4,
+              "weight":null
+            },
+            {
+              "desc":"Incorporates alternate, divergent, or contradictory perspectives or ideas in a exploratory way.",
+              "number":2,
+              "itemRow":4,
+              "weight":null
+            },
+            {
+              "desc":"Includes (recognizes the value of) alternate, divergent, or contradictory perspectives or ideas in a small way.",
+              "number":3,
+              "itemRow":4,
+              "weight":null
+            },
+            {
+              "desc":"Acknowledges (mentions in passing) alternate, divergent, or contradictory perspectives or ideas.",
+              "number":4,
+              "itemRow":4,
+              "weight":null
+            }
+          ]
+        },
+        {
+          "title":"Innovative Thinking",
+          "weight":50,
+          "description":"Novelty or uniqueness (of idea, claim, question, form, etc.)",
+          "rowNum":1,
+          "items":[
+            {
+              "desc":"Extends a novel or unique idea, question, format, or product to create new knowledge or knowledge that crosses boundaries.",
+              "number":1,
+              "itemRow":5,
+              "weight":null
+            },
+            {
+              "desc":"Creates a novel or unique idea, question, format, or product.",
+              "number":2,
+              "itemRow":5,
+              "weight":null
+            },
+            {
+              "desc":"Experiments with creating a novel or unique idea, question, format, or product.",
+              "number":3,
+              "itemRow":5,
+              "weight":null
+            },
+            {
+              "desc":"Reformulates a collection of available ideas.",
+              "number":4,
+              "itemRow":5,
+              "weight":null
+            }
+          ]
+        },
+        {
+          "title":"Connecting, Synthesizing, Transforming",
+          "weight":50,
+          "description":"",
+          "rowNum":1,
+          "items":[
+            {
+              "desc":"Transforms ideas or solutions into entirely new forms.",
+              "number":1,
+              "itemRow":6,
+              "weight":null
+            },
+            {
+              "desc":"Synthesizes ideas or solutions into a coherent whole.",
+              "number":2,
+              "itemRow":6,
+              "weight":null
+            },
+            {
+              "desc":"Connects ideas or solutions in novel ways.",
+              "number":3,
+              "itemRow":6,
+              "weight":null
+            },
+            {
+              "desc":"Recognizes existing connections among ideas or solutions.",
+              "number":4,
+              "itemRow":6,
+              "weight":null
+            }
+          ]
+        }
+      ],
+      "cols":[
+        {
+          "title":"Benchmark",
+          "points":25,
+          "description":"",
+          "colNum":1
+        },
+        {
+          "title":"Fair",
+          "points":50,
+          "description":"",
+          "colNum":2
+        },
+        {
+          "title":"Average",
+          "points":75,
+          "description":"",
+          "colNum":3
+        },
+        {
+          "title":"Capstone",
+          "points":100,
+          "description":"",
+          "colNum":4
+        }
+      ],
+      "rubric_type":"CREATIVE-THINKING",
+      "column_scale":"low-to-high"
+    },
+    {
+      "_id":"1209375b-9752-463d-95b5-3b7b2bd9a4f5",
+      "systemRubric":true,
+      "title":"CRITICAL THINKING VALUE RUBRIC",
+      "product":"MS",
+      "createDate":1471901122,
+      "criterias":[
+        {
+          "title":"Explanation of issues",
+          "weight":50,
+          "description":"",
+          "rowNum":1,
+          "items":[
+            {
+              "desc":"Issue/problem to be considered critically is stated clearly and described comprehensively, delivering all relevant information necessary for full understanding.",
+              "number":1,
+              "itemRow":1,
+              "weight":null
+            },
+            {
+              "desc":"Issue/problem to be considered critically is stated, described, and clarified so that understanding is not seriously impeded by omissions.",
+              "number":2,
+              "itemRow":1,
+              "weight":null
+            },
+            {
+              "desc":"Issue/problem to be considered critically is stated but description leaves some terms undefined, ambiguities unexplored, boundaries undetermined, and/or backgrounds unknown.",
+              "number":3,
+              "itemRow":1,
+              "weight":null
+            },
+            {
+              "desc":"Issue/problem to be considered critically is stated without clarification or description.",
+              "number":4,
+              "itemRow":1,
+              "weight":null
+            }
+          ],
+          "itemCounter":[
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "title":"Evidence",
+          "weight":50,
+          "description":"Selecting and using information to investigate a point of view or conclusion",
+          "rowNum":1,
+          "items":[
+            {
+              "desc":"Information is taken from source(s) with enough interpretation/evaluation to develop a comprehensive analysis or synthesis. Viewpoints of experts are questioned thoroughly.",
+              "number":1,
+              "itemRow":2,
+              "weight":null
+            },
+            {
+              "desc":"Information is taken from source(s) with enough interpretation/evaluation to develop a coherent analysis or synthesis.Viewpoints of experts are subject to questioning.",
+              "number":2,
+              "itemRow":2,
+              "weight":null
+            },
+            {
+              "desc":"Information is taken from source(s) with some interpretation/evaluation, but not enough to develop a coherent analysis or synthesis. Viewpoints of experts are taken as mostly fact, with little questioning.",
+              "number":3,
+              "itemRow":2,
+              "weight":null
+            },
+            {
+              "desc":"Information is taken from source(s) without any interpretation/evaluation. Viewpoints of experts are taken as fact, without question.",
+              "number":4,
+              "itemRow":2,
+              "weight":null
+            }
+          ]
+        },
+        {
+          "title":"Influence of context and assumptions",
+          "weight":50,
+          "description":"",
+          "rowNum":1,
+          "items":[
+            {
+              "desc":"Thoroughly (systematically and methodically) analyzes own and others' assumptions and carefully evaluates the relevance of contexts when presenting a position.",
+              "number":1,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"Identifies own and others' assumptions and several relevant contexts when presenting a position.",
+              "number":2,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"Questions some assumptions. Identifies several relevant contexts when presenting a position. May be more aware of others' assumptions than one's own (or vice versa).",
+              "number":3,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"Shows an emerging awareness of present assumptions (sometimes labels assertions as assumptions). Begins to identify some contexts when presenting a position.",
+              "number":4,
+              "itemRow":3,
+              "weight":null
+            }
+          ]
+        },
+        {
+          "title":"Student's position (perspective, thesis/hypothesis)",
+          "weight":50,
+          "description":"",
+          "rowNum":1,
+          "items":[
+            {
+              "desc":"Specific position (perspective, thesis/hypothesis) is imaginative, taking into account the complexities of an issue. Limits of position (perspective, thesis/hypothesis) are acknowledged. Others' points of view are synthesized within position (perspective, thesis/hypothesis).",
+              "number":1,
+              "itemRow":4,
+              "weight":null
+            },
+            {
+              "desc":"Specific position (perspective, thesis/hypothesis) takes into account the complexities of an issue. Others' points of view are acknowledged within position (perspective, thesis/hypothesis).",
+              "number":2,
+              "itemRow":4,
+              "weight":null
+            },
+            {
+              "desc":"Specific position (perspective, thesis/hypothesis) acknowledges different sides of an issue.",
+              "number":3,
+              "itemRow":4,
+              "weight":null
+            },
+            {
+              "desc":"Specific position (perspective, thesis/hypothesis) is stated, but is simplistic and obvious.",
+              "number":4,
+              "itemRow":4,
+              "weight":null
+            }
+          ]
+        },
+        {
+          "title":"Conclusions and related outcomes (implications and consequences)",
+          "weight":50,
+          "description":"",
+          "rowNum":1,
+          "items":[
+            {
+              "desc":"Conclusions and related outcomes (consequences and implications) are logical and reflect student’s informed evaluation and ability to place evidence and perspectives discussed in priority order.",
+              "number":1,
+              "itemRow":5,
+              "weight":null
+            },
+            {
+              "desc":"Conclusion is logically tied to a range of information, including opposing viewpoints; related outcomes (consequences and implications) are identified clearly.",
+              "number":2,
+              "itemRow":5,
+              "weight":null
+            },
+            {
+              "desc":"Conclusion is logically tied to information (because information is chosen to fit the desired conclusion); some related outcomes (consequences and implications) are identified clearly.",
+              "number":3,
+              "itemRow":5,
+              "weight":null
+            },
+            {
+              "desc":"Conclusion is inconsistently tied to some of the information discussed; related outcomes (consequences and implications) are oversimplified.",
+              "number":4,
+              "itemRow":5,
+              "weight":null
+            }
+          ]
+        }
+      ],
+      "cols":[
+        {
+          "title":"",
+          "points":25,
+          "description":"",
+          "colNum":1
+        },
+        {
+          "title":"",
+          "points":50,
+          "description":"",
+          "colNum":2
+        },
+        {
+          "title":"",
+          "points":75,
+          "description":"",
+          "colNum":3
+        },
+        {
+          "title":"",
+          "points":100,
+          "description":"",
+          "colNum":4
+        }
+      ],
+      "rubric_type":"PSN-AS-ANTHR",
+      "column_scale":"low-to-high"
+    },
+    {
+      "_id":"2112dcb9-22db-4816-81cd-6e5c7c247bbb",
+      "systemRubric":true,
+      "title":"ETHICAL REASONING VALUE RUBRIC",
+      "product":"MS",
+      "createDate":1471901122,
+      "criterias":[
+        {
+          "title":"Ethical Self-Awareness",
+          "weight":50,
+          "description":"",
+          "rowNum":1,
+          "items":[
+            {
+              "desc":"Student discusses in detail/analyzes both core beliefs and the origins of the core beliefs and discussion has greater depth and clarity.",
+              "number":1,
+              "itemRow":1,
+              "weight":null
+            },
+            {
+              "desc":"Student discusses in detail/analyzes both core beliefs and the origins of the core beliefs.",
+              "number":2,
+              "itemRow":1,
+              "weight":null
+            },
+            {
+              "desc":"Student states both core beliefs and the origins of the core beliefs.",
+              "number":3,
+              "itemRow":1,
+              "weight":null
+            },
+            {
+              "desc":"Student states either their core beliefs or articulates the origins of the core beliefs but not both.",
+              "number":4,
+              "itemRow":1,
+              "weight":null
+            }
+          ],
+          "itemCounter":[
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "title":"Understanding Different Ethical Perspectives/Concepts",
+          "weight":50,
+          "description":"",
+          "rowNum":2,
+          "items":[
+            {
+              "desc":"Student names the theory or theories, can present the gist of said theory or theories, and accurately explains the details of the theory or theories used.",
+              "number":1,
+              "itemRow":2,
+              "weight":null
+            },
+            {
+              "desc":"Student can name the major theory or theories she/he uses, can present the gist of said theory or theories, and attempts to explain the details of the theory or theories used, but has some inaccuracies.",
+              "number":2,
+              "itemRow":2,
+              "weight":null
+            },
+            {
+              "desc":"Student can name the major theory she/he uses, and is only able to present the gist of the named theory.",
+              "number":3,
+              "itemRow":2,
+              "weight":null
+            },
+            {
+              "desc":"Student only names the major theory she/he uses.",
+              "number":4,
+              "itemRow":2,
+              "weight":null
+            }
+          ]
+        },
+        {
+          "title":"Ethical Issue Recognition",
+          "weight":50,
+          "description":"",
+          "rowNum":3,
+          "items":[
+            {
+              "desc":"Student can recognize ethical issues when presented in a complex, multilayered (gray) context AND can recognize cross-relationships among the issues.",
+              "number":1,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"Student can recognize ethical issues when issues are presented in a complex, multilayered (gray) context OR can grasp cross-relationships among the issues.",
+              "number":2,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"Student can recognize basic and obvious ethical issues and grasp (incompletely) the complexities or interrelationships among the issues.",
+              "number":3,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"Student can recognize basic and obvious ethical issues but fails to grasp complexity or interrelationships.",
+              "number":4,
+              "itemRow":3,
+              "weight":null
+            }
+          ]
+        },
+        {
+          "title":"Application of Ethical Perspectives/Concepts",
+          "weight":50,
+          "description":"",
+          "rowNum":4,
+          "items":[
+            {
+              "desc":"Student can independently apply ethical perspectives/concepts to an ethical question, accurately, and is able to consider full implications of the application.",
+              "number":1,
+              "itemRow":4,
+              "weight":null
+            },
+            {
+              "desc":"Student can independently (to a new example) apply ethical perspectives/concepts to an ethical question, accurately, but does not consider the specific implications of the application.",
+              "number":2,
+              "itemRow":4,
+              "weight":null
+            },
+            {
+              "desc":"Student can apply ethical perspectives/concepts to an ethical question, independently (to a new example) and the application is inaccurate.",
+              "number":3,
+              "itemRow":4,
+              "weight":null
+            },
+            {
+              "desc":"Student can apply ethical perspectives/concepts to an ethical question with support (using examples, in a class, in a group, or a fixed-choice setting) but is unable to apply ethical perspectives/concepts independently (to a new example.).",
+              "number":4,
+              "itemRow":4,
+              "weight":null
+            }
+          ]
+        },
+        {
+          "title":"Evaluation of Different Ethical Perspectives/Concepts",
+          "weight":50,
+          "description":"",
+          "rowNum":5,
+          "items":[
+            {
+              "desc":"Student states a position and can state the objections to, assumptions and implications of and can reasonably defend against the objections to, assumptions and implications of different ethical perspectives/concepts, and the student's defense is adequate and effective.",
+              "number":1,
+              "itemRow":5,
+              "weight":null
+            },
+            {
+              "desc":"Student states a position and can state the objections to, assumptions and implications of, and respond to the objections to, assumptions and implications of different ethical perspectives/concepts, but the student's response is inadequate.",
+              "number":2,
+              "itemRow":5,
+              "weight":null
+            },
+            {
+              "desc":"Student states a position and can state the objections to, assumptions and implications of different ethical perspectives/concepts but does not respond to them (and ultimately objections, assumptions, and implications are compartmentalized by student and do not affect student's position.)",
+              "number":3,
+              "itemRow":5,
+              "weight":null
+            },
+            {
+              "desc":"Student states a position but cannot state the objections to and assumptions and limitations of the different perspectives/concepts.",
+              "number":4,
+              "itemRow":5,
+              "weight":null
+            }
+          ]
+        }
+      ],
+      "cols":[
+        {
+          "title":"Benchmark",
+          "points":25,
+          "description":"",
+          "colNum":1
+        },
+        {
+          "title":"Fair",
+          "points":50,
+          "description":"",
+          "colNum":2
+        },
+        {
+          "title":"Average",
+          "points":75,
+          "description":"",
+          "colNum":3
+        },
+        {
+          "title":"Capstone",
+          "points":100,
+          "description":"",
+          "colNum":4
+        }
+      ],
+      "rubric_type":"ETHICAL-REASONING",
+      "column_scale":"low-to-high"
+    },
+    {
+      "_id":"6ccfee98-da6a-41ba-ae3c-b16e31340014",
+      "systemRubric":true,
+      "title":"FOUNDATIONS AND SKILLS FOR LIFELONG LEARNING VALUE RUBRIC",
+      "product":"MS",
+      "createDate":1471901122,
+      "criterias":[
+        {
+          "title":"CURIOSITY",
+          "weight":50,
+          "description":"",
+          "rowNum":1,
+          "items":[
+            {
+              "desc":"Explores a topic in depth, yielding a rich awareness and/or little-known information indicating intense interest in the subject.",
+              "number":1,
+              "itemRow":1,
+              "weight":null
+            },
+            {
+              "desc":"Explores a topic in depth, yielding insight and/or information indicating interest in the subject.",
+              "number":2,
+              "itemRow":1,
+              "weight":null
+            },
+            {
+              "desc":"Explores a topic with some evidence of depth, providing occasional insight and/or information indicating mild interest in the subject.",
+              "number":3,
+              "itemRow":1,
+              "weight":null
+            },
+            {
+              "desc":"Explores a topic at a surface level, providing little insight and/or information beyond the very basic facts indicating low interest in the subject.",
+              "number":4,
+              "itemRow":1,
+              "weight":null
+            }
+          ],
+          "itemCounter":[
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "title":"Initiative",
+          "weight":50,
+          "description":"",
+          "rowNum":2,
+          "items":[
+            {
+              "desc":"Completes required work, generates and pursues opportunities to expand knowledge, skills, and abilities.",
+              "number":1,
+              "itemRow":2,
+              "weight":null
+            },
+            {
+              "desc":"Completes required work, identifies and pursues opportunities to expand knowledge, skills, and abilities.",
+              "number":2,
+              "itemRow":2,
+              "weight":null
+            },
+            {
+              "desc":"Completes required work and identifies opportunities to expand knowledge, skills, and abilities.",
+              "number":3,
+              "itemRow":2,
+              "weight":null
+            },
+            {
+              "desc":"Completes required work.",
+              "number":4,
+              "itemRow":2,
+              "weight":null
+            }
+          ]
+        },
+        {
+          "title":"Independence",
+          "weight":50,
+          "description":"",
+          "rowNum":3,
+          "items":[
+            {
+              "desc":"Educational interests and pursuits exist and flourish outside classroom requirements. Knowledge and/or experiences are pursued independently.",
+              "number":1,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"Beyond classroom requirements, pursues substantial, additional knowledge and/or actively pursues independent educational experiences.",
+              "number":2,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"Beyond classroom requirements, pursues additional knowledge and/or shows interest in pursuing independent educational experiences.",
+              "number":3,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"Begins to look beyond classroom requirements, showing interest in pursuing knowledge independently.",
+              "number":4,
+              "itemRow":3,
+              "weight":null
+            }
+          ]
+        },
+        {
+          "title":"Transfer",
+          "weight":50,
+          "description":"",
+          "rowNum":4,
+          "items":[
+            {
+              "desc":"Makes explicit references to previous learning and applies in an innovative (new and creative) way that knowledge and those skills to demonstrate comprehension and performance in novel situations.",
+              "number":1,
+              "itemRow":4,
+              "weight":null
+            },
+            {
+              "desc":"Makes references to previous learning and shows evidence of applying that knowledge and those skills to demonstrate comprehension and performance in novel situations.",
+              "number":2,
+              "itemRow":4,
+              "weight":null
+            },
+            {
+              "desc":"Makes references to previous learning and attempts to apply that knowledge and those skills to demonstrate comprehension and performance in novel situations.",
+              "number":3,
+              "itemRow":4,
+              "weight":null
+            },
+            {
+              "desc":"Makes vague references to previous learning but does not apply knowledge and skills to demonstrate comprehension and performance in novel situations.",
+              "number":4,
+              "itemRow":4,
+              "weight":null
+            }
+          ]
+        },
+        {
+          "title":"Reflection",
+          "weight":50,
+          "description":"",
+          "rowNum":5,
+          "items":[
+            {
+              "desc":"Reviews prior learning (past experiences inside and outside of the classroom) in depth to reveal significantly changed perspectives about educational and life experiences, which provide foundation for expanded knowledge, growth, and maturity over time.",
+              "number":1,
+              "itemRow":5,
+              "weight":null
+            },
+            {
+              "desc":"Reviews prior learning (past experiences inside and outside of the classroom) in depth, revealing fully clarified meanings or indicating broader perspectives about educational or life events.",
+              "number":2,
+              "itemRow":5,
+              "weight":null
+            },
+            {
+              "desc":"Reviews prior learning (past experiences inside and outside of the classroom) with some depth, revealing slightly clarified meanings or indicating a somewhat broader perspectives about educational or life events.",
+              "number":3,
+              "itemRow":5,
+              "weight":null
+            },
+            {
+              "desc":"Reviews prior learning (past experiences inside and outside of the classroom) at a surface level, without revealing clarified meaning or indicating a broader perspective about educational or life events.",
+              "number":4,
+              "itemRow":5,
+              "weight":null
+            }
+          ]
+        }
+      ],
+      "cols":[
+        {
+          "title":"Benchmark",
+          "points":25,
+          "description":"",
+          "colNum":1
+        },
+        {
+          "title":"Fair",
+          "points":50,
+          "description":"",
+          "colNum":2
+        },
+        {
+          "title":"Average",
+          "points":75,
+          "description":"",
+          "colNum":3
+        },
+        {
+          "title":"Capstone",
+          "points":100,
+          "description":"",
+          "colNum":4
+        }
+      ],
+      "rubric_type":"FOUNDATIONS-SKILLS",
+      "column_scale":"low-to-high"
+    },
+    {
+      "_id":"73e061cc-1176-4c31-889b-42fe1067ab85",
+      "systemRubric":true,
+      "title":"INFORMATION LITERACY VALUE RUBRIC",
+      "product":"MS",
+      "createDate":1471901122,
+      "criterias":[
+        {
+          "title":"Determine the Extent of Information Needed",
+          "weight":50,
+          "description":"",
+          "rowNum":1,
+          "items":[
+            {
+              "desc":"Effectively defines the scope of the research question or thesis. Effectively determines key concepts. Types of information (sources) selected directly relate to concepts or answer research question.",
+              "number":1,
+              "itemRow":1,
+              "weight":null
+            },
+            {
+              "desc":"Defines the scope of the research question or thesis completely. Can determine key concepts. Types of information (sources) selected relate to concepts or answer research question.",
+              "number":2,
+              "itemRow":1,
+              "weight":null
+            },
+            {
+              "desc":"Defines the scope of the research question or thesis incompletely (parts are missing, remains too broad or too narrow, etc.). Can determine key concepts. Types of information (sources) selected partially relate to concepts or answer research question.",
+              "number":3,
+              "itemRow":1,
+              "weight":null
+            },
+            {
+              "desc":"Has difficulty defining the scope of the research question or thesis. Has difficulty determining key concepts. Types of information (sources) selected do not relate to concepts or answer research question.",
+              "number":4,
+              "itemRow":1,
+              "weight":null
+            }
+          ],
+          "itemCounter":[
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "title":"Access the Needed Information",
+          "weight":50,
+          "description":"",
+          "rowNum":2,
+          "items":[
+            {
+              "desc":"Accesses information using effective, well-designed search strategies and most appropriate information sources.",
+              "number":1,
+              "itemRow":2,
+              "weight":null
+            },
+            {
+              "desc":"Accesses information using variety of search strategies and some relevant information sources. Demonstrates ability to refine search.",
+              "number":2,
+              "itemRow":2,
+              "weight":null
+            },
+            {
+              "desc":"Accesses information using simple search strategies, retrieves information from limited and similar sources.",
+              "number":3,
+              "itemRow":2,
+              "weight":null
+            },
+            {
+              "desc":"Accesses information randomly, retrieves information that lacks relevance and quality.",
+              "number":4,
+              "itemRow":2,
+              "weight":null
+            }
+          ]
+        },
+        {
+          "title":"Evaluate Information and its Sources Critically",
+          "weight":50,
+          "description":"",
+          "rowNum":3,
+          "items":[
+            {
+              "desc":"Thoroughly (systematically and methodically) analyzes own and others' assumptions and carefully evaluates the relevance of contexts when presenting a position.",
+              "number":1,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"Identifies own and others' assumptions and several relevant contexts when presenting a position.",
+              "number":2,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"Questions some assumptions. Identifies several relevant contexts when presenting a position. May be more aware of others' assumptions than one's own (or vice versa).",
+              "number":3,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"Shows an emerging awareness of present assumptions (sometimes labels assertions as assumptions). Begins to identify some contexts when presenting a position.",
+              "number":4,
+              "itemRow":3,
+              "weight":null
+            }
+          ]
+        },
+        {
+          "title":"Use Information Effectively to Accomplish a Specific Purpose",
+          "weight":50,
+          "description":"",
+          "rowNum":4,
+          "items":[
+            {
+              "desc":"Communicates, organizes and synthesizes information from sources to fully achieve a specific purpose, with clarity and depth",
+              "number":1,
+              "itemRow":4,
+              "weight":null
+            },
+            {
+              "desc":"Communicates, organizes and synthesizes information from sources. Intended purpose is achieved.",
+              "number":2,
+              "itemRow":4,
+              "weight":null
+            },
+            {
+              "desc":"Communicates and organizes information from sources. The information is not yet synthesized, so the intended purpose is not fully achieved.",
+              "number":3,
+              "itemRow":4,
+              "weight":null
+            },
+            {
+              "desc":"Communicates information from sources. The information is fragmented and/or used inappropriately (misquoted, taken out of context, or incorrectly paraphrased, etc.), so the intended purpose is not achieved.",
+              "number":4,
+              "itemRow":4,
+              "weight":null
+            }
+          ]
+        },
+        {
+          "title":"Access and Use Information Ethically and Legally",
+          "weight":50,
+          "description":"",
+          "rowNum":5,
+          "items":[
+            {
+              "desc":"Students use correctly all of the following information use strategies (use of citations and references; choice of paraphrasing, summary, or quoting; using information in ways that are true to original context; distinguishing between common knowledge and ideas requiring attribution) and demonstrate a full understanding of the ethical and legal restrictions on the use of published, confidential, and/or proprietary information.",
+              "number":1,
+              "itemRow":5,
+              "weight":null
+            },
+            {
+              "desc":"Students use correctly three of the following information use strategies (use of citations and references; choice of paraphrasing, summary, or quoting; using information in ways that are true to original context; distinguishing between common knowledge and ideas requiring attribution) and demonstrates a full understanding of the ethical and legal restrictions on the use of published, confidential, and/or proprietary information.",
+              "number":2,
+              "itemRow":5,
+              "weight":null
+            },
+            {
+              "desc":"Students use correctly two of the following information use strategies (use of citations and references; choice of paraphrasing, summary, or quoting; using information in ways that are true to original context; distinguishing between common knowledge and ideas requiring attribution) and demonstrates a full understanding of the ethical and legal restrictions on the use of published, confidential, and/or proprietary information.",
+              "number":3,
+              "itemRow":5,
+              "weight":null
+            },
+            {
+              "desc":"Students use correctly one of the following information use strategies (use of citations and references; choice of paraphrasing, summary, or quoting; using information in ways that are true to original context; distinguishing between common knowledge and ideas requiring attribution) and demonstrates a full understanding of the ethical and legal restrictions on the use of published, confidential, and/or proprietary information.",
+              "number":4,
+              "itemRow":5,
+              "weight":null
+            }
+          ]
+        }
+      ],
+      "cols":[
+        {
+          "title":"Benchmark",
+          "points":25,
+          "description":"",
+          "colNum":1
+        },
+        {
+          "title":"Fair",
+          "points":50,
+          "description":"",
+          "colNum":2
+        },
+        {
+          "title":"Average",
+          "points":75,
+          "description":"",
+          "colNum":3
+        },
+        {
+          "title":"Capstone",
+          "points":100,
+          "description":"",
+          "colNum":4
+        }
+      ],
+      "rubric_type":"INFORMATION-LITERACY",
+      "column_scale":"low-to-high"
+    },
+    {
+      "_id":"5f6b21a2-504e-4ca4-bf8c-2fa0ff1ebbd9",
+      "systemRubric":true,
+      "title":"INTEGRATIVE LEARNING VALUE RUBRIC",
+      "product":"MS",
+      "createDate":1471901122,
+      "criterias":[
+        {
+          "title":"Connections to Experience\nConnects relevant experience and academic knowledge",
+          "weight":50,
+          "description":"",
+          "rowNum":1,
+          "items":[
+            {
+              "desc":"Meaningfully synthesizes connections among experiences outside of the formal classroom (including life experiences and academic experiences such as internships and travel abroad) to deepen understanding of fields of study and to broaden own points of view.",
+              "number":1,
+              "itemRow":1,
+              "weight":null
+            },
+            {
+              "desc":"Effectively selects and develops examples of life experiences, drawn from a variety of contexts (e.g., family life, artistic participation, civic involvement, work experience), to illuminate concepts/theories/frameworks of fields of study.",
+              "number":2,
+              "itemRow":1,
+              "weight":null
+            },
+            {
+              "desc":"Compares life experiences and academic knowledge to infer differences, as well as similarities, and acknowledge perspectives other than own.",
+              "number":3,
+              "itemRow":1,
+              "weight":null
+            },
+            {
+              "desc":"Identifies connections between life experiences and those academic texts and ideas perceived as similar and related to own interests.",
+              "number":4,
+              "itemRow":1,
+              "weight":null
+            }
+          ],
+          "itemCounter":[
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "title":"Connections to Discipline\nSees (makes) connections across disciplines, perspectives",
+          "weight":50,
+          "description":"",
+          "rowNum":2,
+          "items":[
+            {
+              "desc":"Independently creates wholes out of multiple parts (synthesizes) or draws conclusions by combining examples, facts, or theories from more than one field of study or perspective.",
+              "number":1,
+              "itemRow":2,
+              "weight":null
+            },
+            {
+              "desc":"Independently connects examples, facts, or theories from more than one field of study or perspective.",
+              "number":2,
+              "itemRow":2,
+              "weight":null
+            },
+            {
+              "desc":"When prompted, connects examples, facts, or theories from more than one field of study or perspective.",
+              "number":3,
+              "itemRow":2,
+              "weight":null
+            },
+            {
+              "desc":"When prompted, presents examples, facts, or theories from more than one field of study or perspective.",
+              "number":4,
+              "itemRow":2,
+              "weight":null
+            }
+          ]
+        },
+        {
+          "title":"Transfer\nAdapts and applies skills, abilities, theories, or methodologies gained in one situation to new situations",
+          "weight":50,
+          "description":"",
+          "rowNum":3,
+          "items":[
+            {
+              "desc":"Adapts and applies, independently, skills, abilities, theories, or methodologies gained in one situation to new situations to solve difficult problems or explore complex issues in original ways.",
+              "number":1,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"Adapts and applies skills, abilities, theories, or methodologies gained in one situation to new situations to solve problems or explore issues.",
+              "number":2,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"Uses skills, abilities, theories, or methodologies gained in one situation in a new situation to contribute to understanding of problems or issues.",
+              "number":3,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"Uses, in a basic way, skills, abilities, theories, or methodologies gained in one situation in a new situation.",
+              "number":4,
+              "itemRow":3,
+              "weight":null
+            }
+          ]
+        },
+        {
+          "title":"Integrated Communication",
+          "weight":50,
+          "description":"",
+          "rowNum":4,
+          "items":[
+            {
+              "desc":"Fulfills the assignment(s) by choosing a format, language, or graph (or other visual representation) in ways that enhance meaning, making clear the interdependence of language and meaning, thought, and expression.",
+              "number":1,
+              "itemRow":4,
+              "weight":null
+            },
+            {
+              "desc":"Fulfills the assignment(s) by choosing a format, language, or graph (or other visual representation) to explicitly connect content and form, demonstrating awareness of purpose and audience.",
+              "number":2,
+              "itemRow":4,
+              "weight":null
+            },
+            {
+              "desc":"Fulfills the assignment(s) by choosing a format, language, or graph (or other visual representation) that connects in a basic way what is being communicated (content) with how it is said (form).",
+              "number":3,
+              "itemRow":4,
+              "weight":null
+            },
+            {
+              "desc":"Fulfills the assignment(s) (i.e. to produce an essay, a poster, a video, a PowerPoint presentation, etc.) in an appropriate form.",
+              "number":4,
+              "itemRow":4,
+              "weight":null
+            }
+          ]
+        },
+        {
+          "title":"Reflection and Self-Assessment\nDemonstrates a developing sense of self as a learner, building on prior experiences to respond to new and challenging contexts (may be evident in self-assessment, reflective, or creative work)",
+          "weight":50,
+          "description":"",
+          "rowNum":5,
+          "items":[
+            {
+              "desc":"Envisions a future self (and possibly makes plans that build on past experiences) that have occurred across multiple and diverse contexts.",
+              "number":1,
+              "itemRow":5,
+              "weight":null
+            },
+            {
+              "desc":"Evaluates changes in own learning over time, recognizing complex contextual factors (e.g., works with ambiguity and risk, deals with frustration, considers ethical frameworks).",
+              "number":2,
+              "itemRow":5,
+              "weight":null
+            },
+            {
+              "desc":"Articulates strengths and challenges (within specific performances or events) to increase effectiveness in different contexts (through increased self-awareness).",
+              "number":3,
+              "itemRow":5,
+              "weight":null
+            },
+            {
+              "desc":"Describes own performances with general descriptors of success and failure.",
+              "number":4,
+              "itemRow":5,
+              "weight":null
+            }
+          ]
+        }
+      ],
+      "cols":[
+        {
+          "title":"Benchmark",
+          "points":25,
+          "description":"",
+          "colNum":1
+        },
+        {
+          "title":"Fair",
+          "points":50,
+          "description":"",
+          "colNum":2
+        },
+        {
+          "title":"Average",
+          "points":75,
+          "description":"",
+          "colNum":3
+        },
+        {
+          "title":"Capstone",
+          "points":100,
+          "description":"",
+          "colNum":4
+        }
+      ],
+      "rubric_type":"INTEGRATIVE-LEARNING",
+      "column_scale":"low-to-high"
+    },
+    {
+      "_id":"9b8dffec-d752-4497-8e3f-c4babe51b8ad",
+      "systemRubric":true,
+      "title":"TEAMWORK VALUE RUBRIC",
+      "product":"MS",
+      "createDate":1471901122,
+      "criterias":[
+        {
+          "title":"Contributes to Team Meetings",
+          "weight":50,
+          "description":"",
+          "rowNum":1,
+          "items":[
+            {
+              "desc":"Helps the team move forward by articulating the merits of alternative ideas or proposals.",
+              "number":1,
+              "itemRow":1,
+              "weight":null
+            },
+            {
+              "desc":"Offers alternative solutions or courses of action that build on the ideas of others.",
+              "number":2,
+              "itemRow":1,
+              "weight":null
+            },
+            {
+              "desc":"Offers new suggestions to advance the work of the group.",
+              "number":3,
+              "itemRow":1,
+              "weight":null
+            },
+            {
+              "desc":"Shares ideas but does not advance the work of the group.",
+              "number":4,
+              "itemRow":1,
+              "weight":null
+            }
+          ],
+          "itemCounter":[
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "title":"Facilitates the Contributions of Team Members",
+          "weight":50,
+          "description":"",
+          "rowNum":2,
+          "items":[
+            {
+              "desc":"Engages team members in ways that facilitate their contributions to meetings by both constructively building upon or synthesizing the contributions of others as well as noticing when someone is not participating and inviting them to engage.",
+              "number":1,
+              "itemRow":2,
+              "weight":null
+            },
+            {
+              "desc":"Engages team members in ways that facilitate their contributions to meetings by constructively building upon or synthesizing the contributions of others.",
+              "number":2,
+              "itemRow":2,
+              "weight":null
+            },
+            {
+              "desc":"Engages team members in ways that facilitate their contributions to meetings by restating the views of other team members and/or asking questions for clarification.",
+              "number":3,
+              "itemRow":2,
+              "weight":null
+            },
+            {
+              "desc":"Engages team members by taking turns and listening to others without interrupting.",
+              "number":4,
+              "itemRow":2,
+              "weight":null
+            }
+          ]
+        },
+        {
+          "title":"Individual Contributions Outside of Team Meetings",
+          "weight":50,
+          "description":"",
+          "rowNum":3,
+          "items":[
+            {
+              "desc":"Completes all assigned tasks by deadline;\nwork accomplished is thorough, comprehensive, and advances the project.\nProactively helps other team members complete their assigned tasks to a similar level of excellence.",
+              "number":1,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"Completes all assigned tasks by deadline;\nwork accomplished is thorough, comprehensive, and advances the project.",
+              "number":2,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"Completes all assigned tasks by deadline;\nwork accomplished advances the project.",
+              "number":3,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"Completes all assigned tasks by deadline.",
+              "number":4,
+              "itemRow":3,
+              "weight":null
+            }
+          ]
+        },
+        {
+          "title":"Fosters Constructive Team Climate",
+          "weight":50,
+          "description":"",
+          "rowNum":4,
+          "items":[
+            {
+              "desc":"Supports a constructive team climate by doing all of the following:\n• Treats team members respectfully by being polite and constructive in communication.\n• Uses positive vocal or written tone, facial expressions, and/or body language to convey a positive attitude about the team and its work.\n• Motivates teammates by expressing confidence about the importance of the task and the team's ability to accomplish it.\n• Provides assistance and/or encouragement to team members.",
+              "number":1,
+              "itemRow":4,
+              "weight":null
+            },
+            {
+              "desc":"Supports a constructive team climate by doing any three of the following:\n• Treats team members respectfully by being polite and constructive in communication.\n• Uses positive vocal or written tone, facial expressions, and/or body language to convey a positive attitude about the team and its work.\n• Motivates teammates by expressing confidence about the importance of the task and the team's ability to accomplish it.\n• Provides assistance and/or encouragement to team members.",
+              "number":2,
+              "itemRow":4,
+              "weight":null
+            },
+            {
+              "desc":"Supports a constructive team climate by doing any two of the following:\n• Treats team members respectfully by being polite and constructive in communication.\n• Uses positive vocal or written tone, facial expressions, and/or body language to convey a positive attitude about the team and its work.\n• Motivates teammates by expressing confidence about the importance of the task and the team's ability to accomplish it.\n• Provides assistance and/or encouragement to team members.",
+              "number":3,
+              "itemRow":4,
+              "weight":null
+            },
+            {
+              "desc":"Supports a constructive team climate by doing any one of the following:\n• Treats team members respectfully by being polite and constructive in communication.\n• Uses positive vocal or written tone, facial expressions, and/or body language to convey a positive attitude about the team and its work.\n• Motivates teammates by expressing confidence about the importance of the task and the team's ability to accomplish it.\n• Provides assistance and/or encouragement to team members.",
+              "number":4,
+              "itemRow":4,
+              "weight":null
+            }
+          ]
+        },
+        {
+          "title":"Responds to Conflict",
+          "weight":50,
+          "description":"",
+          "rowNum":5,
+          "items":[
+            {
+              "desc":"Addresses destructive conflict directly and constructively, helping to manage/resolve it in a way that strengthens overall team cohesiveness and future effectiveness.",
+              "number":1,
+              "itemRow":5,
+              "weight":null
+            },
+            {
+              "desc":"Identifies and acknowledges conflict and stays engaged with it.",
+              "number":2,
+              "itemRow":5,
+              "weight":null
+            },
+            {
+              "desc":"Redirecting focus toward common ground, toward task at hand (away from conflict).",
+              "number":3,
+              "itemRow":5,
+              "weight":null
+            },
+            {
+              "desc":"Passively accepts alternate viewpoints/ideas/opinions.",
+              "number":4,
+              "itemRow":5,
+              "weight":null
+            }
+          ]
+        }
+      ],
+      "cols":[
+        {
+          "title":"Benchmark",
+          "points":25,
+          "description":"",
+          "colNum":1
+        },
+        {
+          "title":"Fair",
+          "points":50,
+          "description":"",
+          "colNum":2
+        },
+        {
+          "title":"Average",
+          "points":75,
+          "description":"",
+          "colNum":3
+        },
+        {
+          "title":"Capstone",
+          "points":100,
+          "description":"",
+          "colNum":4
+        }
+      ],
+      "rubric_type":"TEAMWORK-VALUE",
+      "column_scale":"low-to-high"
+    },
+    {
+      "_id":"6b58fd7a-c9b5-430b-a3d1-43405050cb59",
+      "systemRubric":true,
+      "title":"WRITTEN COMMUNICATION VALUE RUBRIC",
+      "product":"MS",
+      "createDate":1471901122,
+      "criterias":[
+        {
+          "title":"Context of and Purpose for Writing\nIncludes considerations of audience, purpose, and the circumstances surrounding the writing task(s).",
+          "weight":50,
+          "description":"",
+          "rowNum":1,
+          "items":[
+            {
+              "desc":"Demonstrates a thorough understanding of context, audience, and purpose that is responsive to the assigned task(s) and focuses all elements of the work.",
+              "number":1,
+              "itemRow":1,
+              "weight":null
+            },
+            {
+              "desc":"Demonstrates adequate consideration of context, audience, and purpose and a clear focus on the assigned task(s) (e.g., the task aligns with audience, purpose, and context).",
+              "number":2,
+              "itemRow":1,
+              "weight":null
+            },
+            {
+              "desc":"Demonstrates awareness of context, audience, purpose, and to the assigned tasks(s) (e.g., begins to show awareness of audience's perceptions and assumptions).",
+              "number":3,
+              "itemRow":1,
+              "weight":null
+            },
+            {
+              "desc":"Demonstrates minimal attention to context, audience, purpose, and to the assigned tasks(s) (e.g., expectation of instructor or self as audience).",
+              "number":4,
+              "itemRow":1,
+              "weight":null
+            }
+          ],
+          "itemCounter":[
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "title":"Content Development",
+          "weight":50,
+          "description":"",
+          "rowNum":2,
+          "items":[
+            {
+              "desc":"Uses appropriate, relevant, and compelling content to illustrate mastery of the subject, conveying the writer's understanding, and shaping the whole work.",
+              "number":1,
+              "itemRow":2,
+              "weight":null
+            },
+            {
+              "desc":"Uses appropriate, relevant, and compelling content to explore ideas within the context of the discipline and shape the whole work.",
+              "number":2,
+              "itemRow":2,
+              "weight":null
+            },
+            {
+              "desc":"Uses appropriate and relevant content to develop and explore ideas through most of the work.",
+              "number":3,
+              "itemRow":2,
+              "weight":null
+            },
+            {
+              "desc":"Uses appropriate and relevant content to develop simple ideas in some parts of the work.",
+              "number":4,
+              "itemRow":2,
+              "weight":null
+            }
+          ]
+        },
+        {
+          "title":"Genre and Disciplinary Conventions\nFormal and informal rules inherent in the expectations for writing in particular forms and/or academic fields (please see glossary).",
+          "weight":50,
+          "description":"",
+          "rowNum":3,
+          "items":[
+            {
+              "desc":"Demonstrates detailed attention to and successful execution of a wide range of conventions particular to a specific discipline and/or writing task (s) including organization, content, presentation, formatting, and stylistic choices",
+              "number":1,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"Demonstrates consistent use of important conventions particular to a specific discipline and/or writing task(s), including organization, content, presentation, and stylistic choices",
+              "number":2,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"Follows expectations appropriate to a specific discipline and/or writing task(s) for basic organization, content, and presentation",
+              "number":3,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"Attempts to use a consistent system for basic organization and presentation.",
+              "number":4,
+              "itemRow":3,
+              "weight":null
+            }
+          ]
+        },
+        {
+          "title":"Sources and Evidence",
+          "weight":50,
+          "description":"",
+          "rowNum":4,
+          "items":[
+            {
+              "desc":"Demonstrates skillful use of high-quality, credible, relevant sources to develop ideas that are appropriate for the discipline and genre of the writing",
+              "number":1,
+              "itemRow":4,
+              "weight":null
+            },
+            {
+              "desc":"Demonstrates consistent use of credible, relevant sources to support ideas that are situated within the discipline and genre of the writing.",
+              "number":2,
+              "itemRow":4,
+              "weight":null
+            },
+            {
+              "desc":"Demonstrates an attempt to use credible and/or relevant sources to support ideas that are appropriate for the discipline and genre of the writing.",
+              "number":3,
+              "itemRow":4,
+              "weight":null
+            },
+            {
+              "desc":"Demonstrates an attempt to use sources to support ideas in the writing.",
+              "number":4,
+              "itemRow":4,
+              "weight":null
+            }
+          ]
+        },
+        {
+          "title":"Control of Syntax and Mechanics",
+          "weight":50,
+          "description":"",
+          "rowNum":5,
+          "items":[
+            {
+              "desc":"Uses graceful language that skillfully communicates meaning to readers with clarity and fluency, and is virtually error-free.",
+              "number":1,
+              "itemRow":5,
+              "weight":null
+            },
+            {
+              "desc":"Uses straightforward language that generally conveys meaning to readers. The language in the portfolio has few errors.",
+              "number":2,
+              "itemRow":5,
+              "weight":null
+            },
+            {
+              "desc":"Uses language that generally conveys meaning to readers with clarity, although writing may include some errors.",
+              "number":3,
+              "itemRow":5,
+              "weight":null
+            },
+            {
+              "desc":"Uses language that sometimes impedes meaning because of errors in usage.",
+              "number":4,
+              "itemRow":5,
+              "weight":null
+            }
+          ]
+        }
+      ],
+      "cols":[
+        {
+          "title":"Benchmark",
+          "points":25,
+          "description":"",
+          "colNum":1
+        },
+        {
+          "title":"Fair",
+          "points":50,
+          "description":"",
+          "colNum":2
+        },
+        {
+          "title":"Average",
+          "points":75,
+          "description":"",
+          "colNum":3
+        },
+        {
+          "title":"Capstone",
+          "points":100,
+          "description":"",
+          "colNum":4
+        }
+      ],
+      "rubric_type":"WRITTEN-COMMUNICATION",
+      "column_scale":"low-to-high"
+    }
+  ],
+  "userRubrics":[
+
+  ]
+}

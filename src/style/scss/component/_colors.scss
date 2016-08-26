@@ -23,6 +23,23 @@
   background: $red;
 }
 
+.green-bg {
+  background: $green;
+}
+
+.dark-green-bg {
+  background:$dark-green;
+}
+
+.light-green-bg {
+  background:$light-green;
+}
+
+.disabled-bg {
+  background:$disabled;
+}
+
+
 // font colors
 .gray {
   color:$gray;
@@ -46,4 +63,20 @@
 
 .red {
   color:$red;
+}
+
+.green {
+  color:$green;
+}
+
+.dark-green {
+  color:$dark-green;
+}
+
+.light-green {
+  color:$light-green;
+}
+
+.disabled {
+  color:$disabled;
 }

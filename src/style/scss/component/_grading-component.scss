@@ -1,0 +1,79 @@
+.grading-component {
+  background:$white;
+  
+  &.fixed {
+	max-width:320px;
+  }
+}
+.grading-headline {
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  padding:15px;
+  background: $light-gray;
+  
+}
+
+.points-available {
+  margin:0 5px;
+  text-align: center;
+  flex-grow:1;
+  
+  .score {
+	color:$green;
+	font-weight: bold;
+	
+  }
+  .visual-marker {
+	background:$green;
+	width:100%;
+  }
+  &.disabled {
+	cursor:pointer;
+	span {
+	  color:$disabled;
+	}
+	div {
+	  background:$disabled;
+	}
+	&:hover {
+	  span {
+		color:$green;
+	  }
+	  div {
+		background:$green;
+	  }
+	}
+	&:focus {
+	  span {
+		color:$green;
+	  }
+	  div {
+		background:$green;
+	  }
+	}
+  }
+}
+
+.point-scale {
+  display:flex;
+  justify-content: center;
+  padding-top:15px;
+}
+
+.grading-criteria {
+  padding:15px;
+  border-bottom:1px solid $light-gray;
+}
+
+.total-score {
+  padding:15px;
+  display:flex;
+  justify-content: space-between;
+  align-items: center;
+  margin-top:15px;
+}
+
+.comment-box {
+  padding:15px;
+}

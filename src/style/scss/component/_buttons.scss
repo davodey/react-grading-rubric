@@ -1,5 +1,5 @@
 button {
-  line-height:0 !important; // overrides the elements lineheight because text becomes OFF center.
+  line-height:0 !important;
 }
 .selected {
   @include button-style($light-blue, $blue);

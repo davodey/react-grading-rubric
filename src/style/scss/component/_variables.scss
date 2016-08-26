@@ -34,18 +34,22 @@ $highlighter: pe-color(highlighter);
 
 
 
-// Select Component Colors
 // Primary Colors
 $blue: $basic-blue;
-$light-blue: $blue-milk;
+$light-blue: lighten($sky-blue, 10%);
 
 // Neutral Colors
 $gray: $boring;
-$light-gray: $boring;
+$light-gray: $sidewalk;
 $dark-gray: $gray-no-1; //#4d4d4d
 
+
 // Utility Colors
-$red : #e6000f;
+$red : #D0021B;
+$green: #076826;
+$dark-green: darken($green, 15%);
+$light-green: lighten($green, 70%);
+$disabled: $brightly-lit;
 
 // Measurements
 $unit: 1em;
