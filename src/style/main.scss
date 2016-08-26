@@ -1,0 +1,21 @@
+// Elements
+// Elements
+$pe-icons-path: '~pearson-elements/assets/fonts/';
+
+@import '../../node_modules/pearson-elements/scss/elements';
+//@import '~pearson-elements/scss/style';
+// Docs
+@import 'scss/component/syntax';
+// Loads generic helper classes
+@import 'scss/component/variables';
+@import 'scss/component/mixins';
+@import 'scss/component/helpers';
+@import 'scss/component/flex';
+
+// Start project files
+@import 'scss/component/colors';
+@import 'scss/component/buttons';
+@import 'scss/component/inputs';
+@import 'scss/component/lists';
+@import 'scss/component/text';
+@import 'scss/component/component-select-layout';

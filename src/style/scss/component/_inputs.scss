@@ -1,0 +1,22 @@
+.custom-select{
+  @include font-size(18px);
+  display:flex;
+  
+  .icon {
+	order:2;
+  }
+  
+  select {
+	width:120%;
+	cursor:pointer;
+  }
+  
+  .select-container{
+	padding-right:5px;
+	select {
+	  appearance: none;
+	  border:0;
+	  background-color:$white;
+	}
+  }
+}

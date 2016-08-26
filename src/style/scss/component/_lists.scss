@@ -1,0 +1,11 @@
+.inline-list {
+  > li {
+	display: inline-block;
+	padding:0 15px;
+	border-right: 1px solid;
+	
+	&:last-child {
+	  border-right:0;
+	}
+  }
+}

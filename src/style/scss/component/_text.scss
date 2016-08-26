@@ -1,0 +1,12 @@
+// font-sizes
+.font-sz-17 {
+  @include font-size(17px)
+}
+
+.font-sz-18 {
+  @include font-size(18px)
+}
+
+.font-sz-15 {
+  @include font-size(15px)
+}

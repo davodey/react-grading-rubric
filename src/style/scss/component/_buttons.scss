@@ -1,0 +1,24 @@
+button {
+  line-height:0 !important; // overrides the elements lineheight because text becomes OFF center.
+}
+.selected {
+  @include button-style($light-blue, $blue);
+  
+  &:hover {
+    @include button-style($light-blue, $blue);
+  }
+}
+
+.min-btn-width {
+  min-width:228px;
+}
+
+.icon-only {
+  background:none;
+  border:0;
+  
+  &:hover {
+	background:none;
+	border:0;
+  }
+}
