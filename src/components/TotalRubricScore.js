@@ -7,7 +7,7 @@ export default class TotalScore extends Component {
 
     render() {
         return (
-            <div className="oval light-green-bg green bold">25 pts</div>
+            <div className="oval light-green-bg green bold">0 pts</div>
         )
     }
 };

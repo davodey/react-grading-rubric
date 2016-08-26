@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux';
-
+import { bindActionCreators} from 'redux';
+import { fetchData } from '../actions/fetchData';
 import ShowDescription from './ShowDescription';
 import GradingCriteria from '../components/GradingCriteria';
 import TotalScore from '../components/TotalRubricScore';
@@ -21,7 +22,7 @@ class GradingComponent extends Component {
                 <div className="grading-criteria-header">
 
                     {/*load the grading critera*/}
-                    <GradingCriteria descriptionToggle={this.props.descriptions}/>
+                    <GradingCriteria descriptionToggle={this.props.descriptions} loadData={fetchData(this.props.rubricId).payload}/>
                 </div>
                 <div className="total-score margin-bottom">
                     <div className="pe-label pe-label--bold">Rubric Score</div>
@@ -40,4 +41,9 @@ function mapStateToProps(state) {
     }
 }
 
-export default connect(mapStateToProps)(GradingComponent);
+function mapDispatchToProps(dispatch) {
+    return bindActionCreators({fetchData: fetchData}, dispatch)
+}
+
+
+export default connect(mapStateToProps, mapDispatchToProps)(GradingComponent);
