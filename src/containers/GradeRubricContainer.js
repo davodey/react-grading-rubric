@@ -1,9 +1,11 @@
 import React, { Component } from 'react';
+import {connect} from 'react-redux';
+
 import ShowDescription from './ShowDescription';
 import GradingCriteria from '../components/GradingCriteria';
 import TotalScore from '../components/TotalRubricScore';
 
-export default class GradingComponent extends Component {
+class GradingComponent extends Component {
     constructor(props) {
         super(props);
     }
@@ -14,12 +16,12 @@ export default class GradingComponent extends Component {
                     <div className="pe-label pe-label--bold">Rubric</div>
 
                     {/*load show description component*/}
-                    <ShowDescription/>
+                    <ShowDescription checked={this.props.descriptions}/>
                 </div>
                 <div className="grading-criteria-header">
 
                     {/*load the grading critera*/}
-                    <GradingCriteria/>
+                    <GradingCriteria descriptionToggle={this.props.descriptions}/>
                 </div>
                 <div className="total-score margin-bottom">
                     <div className="pe-label pe-label--bold">Rubric Score</div>
@@ -31,3 +33,11 @@ export default class GradingComponent extends Component {
         );
     }
 }
+
+function mapStateToProps(state) {
+    return {
+        descriptions: state.rubricDescriptions,
+    }
+}
+
+export default connect(mapStateToProps)(GradingComponent);

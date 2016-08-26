@@ -7,7 +7,7 @@ const gradingCriteriaItem = (props) => {
     return (
         <div>
             {/*Load the title and descripton of the Item*/}
-            <GradingCriteriaInfo/>
+            <GradingCriteriaInfo descriptionToggle={props.descriptionToggle}/>
 
             {/*Load the point scale*/}
             <PointScale/>

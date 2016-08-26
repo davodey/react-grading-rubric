@@ -5,6 +5,7 @@ import GradingComponent from './gradingComponent';
 class AppContainer extends Component {
     constructor(props) {
         super(props);
+
     }
 
     render () {

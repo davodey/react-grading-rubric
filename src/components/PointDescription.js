@@ -1,6 +1,5 @@
 import React from 'react';
 const pointDescription = (props) => {
-
     return (
         <div className="point-description margin-top">
             <div className="pe-label pe-label--bold">Bold label</div>
@@ -8,7 +7,6 @@ const pointDescription = (props) => {
         </div>
     )
 };
-
 export default pointDescription;
 
 

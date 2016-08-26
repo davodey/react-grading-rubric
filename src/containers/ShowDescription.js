@@ -1,6 +1,9 @@
 import React, { Component } from 'react';
+import { toggleDescription } from '../actions/toggleDescription';
+import { bindActionCreators} from 'redux';
+import {connect} from 'react-redux';
 
-export default class ShowDescription extends Component {
+class ShowDescription extends Component {
     constructor(props) {
         super(props);
     }
@@ -8,9 +11,15 @@ export default class ShowDescription extends Component {
     render() {
         return (
             <div className="pe-checkbox pe-checkbox--small">
-                <input type="checkbox" name="Small checkbox" id="chk5" value="" />
+                <input onChange={this.props.onCheck} type="checkbox" name="Small checkbox" id="chk5" value="" />
                 <label htmlFor="chk5">Show Description</label>
             </div>
         )
     }
 };
+
+function mapDispatchToProps(dispatch) {
+    return bindActionCreators({onCheck: toggleDescription}, dispatch)
+}
+
+export default connect(null, mapDispatchToProps)(ShowDescription);
