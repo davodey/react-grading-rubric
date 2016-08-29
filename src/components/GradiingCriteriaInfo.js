@@ -1,19 +1,22 @@
 import React from 'react';
 
 const gradingCriteriaInfo= (props) => {
-    const descToggled = props.descriptionToggle;
+
+    const descToggled = props.descriptionToggle,
+    title = props.title,
+    description = props.desc;
 
     if (descToggled === true) {
         return (
             <div>
-                <h3 className="pe-title">Organization</h3>
-                <p className="pe-copy--small pe-paragraph--last">Organizational pattern (specific introduction and conclusion, sequenced material within the body, and transitions) is clearly and consistently observable and is skillful and makes the content of the presentation cohesive. </p>
+                <h3 className="pe-title">{title}</h3>
+                <p className="pe-copy--small pe-paragraph--last">{description}</p>
             </div>
         )
     } else {
         return (
             <div>
-                <h3 className="pe-title">Organization</h3>
+                <h3 className="pe-title">{title}</h3>
             </div>
         )
     }

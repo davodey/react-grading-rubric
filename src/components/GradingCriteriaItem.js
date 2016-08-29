@@ -5,9 +5,14 @@ import PointDescription from './PointDescription';
 
 const gradingCriteriaItem = (props) => {
     return (
-        <div>
-            {/*Load the title and descripton of the Item*/}
-            <GradingCriteriaInfo descriptionToggle={props.descriptionToggle}/>
+        <div className="grading-criteria" >
+
+        {/*Load the title and descripton of the Item*/}
+            <GradingCriteriaInfo
+                descriptionToggle={props.descriptionToggle}
+                title={props.title}
+                desc={props.desc}
+            />
 
             {/*Load the point scale*/}
             <PointScale/>
