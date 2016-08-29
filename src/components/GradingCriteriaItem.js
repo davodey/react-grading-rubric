@@ -1,9 +1,11 @@
 import React from 'react';
 import GradingCriteriaInfo from './GradiingCriteriaInfo';
-import PointScale from './PointScale';
-import PointDescription from './PointDescription';
+import PointScale from '../components/PointScale';
 
 const gradingCriteriaItem = (props) => {
+    const pointData = props.pointData;
+    const pointDesc = props.pointDescriptions;
+    console.log('GCITEM', props);
     return (
         <div className="grading-criteria" >
 
@@ -13,10 +15,8 @@ const gradingCriteriaItem = (props) => {
                 title={props.title}
                 desc={props.desc}
             />
-
             {/*Load the point scale*/}
-            <PointScale/>
-            <PointDescription/>
+            <PointScale pointData={props.pointData} pointDesc={props.pointDescriptions} col={props.numberOfCol}/>
         </div>
     )
 };
