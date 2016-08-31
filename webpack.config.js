@@ -30,6 +30,9 @@ module.exports = {
   devServer: {
     historyApiFallback: true,
     contentBase: './',
+    inline:true,
+    port: 8008
+
   },
   sassLoader: {
     includePaths: [path.resolve(__dirname, "./style")]

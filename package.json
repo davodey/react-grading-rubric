@@ -18,14 +18,14 @@
     "babel-preset-react": "^6.1.18",
     "chai": "^3.5.0",
     "chai-jquery": "^2.0.0",
-    "css-loader": "^0.23.1",
+    "css-loader": "^0.24.0",
     "file-loader": "^0.9.0",
-    "jquery": "^2.2.1",
-    "jsdom": "^8.1.0",
+    "jquery": "^3.1.0",
+    "jsdom": "^9.4.5",
     "json-loader": "^0.5.4",
-    "mocha": "^2.4.5",
+    "mocha": "^3.0.2",
     "node-sass": "^3.8.0",
-    "react-addons-test-utils": "^0.14.7",
+    "react-addons-test-utils": "^15.3.1",
     "sass-loader": "^4.0.0",
     "style-loader": "^0.13.1",
     "url-loader": "^0.5.7",
@@ -34,13 +34,12 @@
   },
   "dependencies": {
     "babel-preset-stage-1": "^6.1.18",
-    "lodash": "^3.10.1",
+    "lodash": "^4.15.0",
     "pearson-compounds": "^0.1.0",
-    "react": "^0.14.3",
-    "react-dom": "^0.14.3",
+    "react": "^15.3.1",
+    "react-dom": "^15.3.1",
     "react-redux": "^4.0.0",
     "react-router": "^2.0.1",
-    "redux": "^3.0.4",
-    "redux-promise": "^0.5.3"
+    "redux": "^3.0.4"
   }
 }

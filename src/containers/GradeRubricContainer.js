@@ -6,11 +6,12 @@ import ShowDescription from './ShowDescription';
 import GradingCriteria from '../components/GradingCriteria';
 import TotalScore from '../components/TotalRubricScore';
 
-class GradingComponent extends Component {
+class GradingComponentContainer extends Component {
     constructor(props) {
         super(props);
     }
     render() {
+        console.log('render');
         return (
             <section className="grading-component fixed">
                 <div className="grading-headline">
@@ -22,7 +23,7 @@ class GradingComponent extends Component {
                 <div className="grading-criteria-header">
 
                     {/*load the grading critera*/}
-                    <GradingCriteria descriptionToggle={this.props.descriptions} loadData={fetchData(this.props.rubricId).payload}/>
+                    <GradingCriteria score={this.props.score} descriptionToggle={this.props.descriptions} loadData={this.props.loadData}/>
                 </div>
                 <div className="total-score margin-bottom">
                     <div className="pe-label pe-label--bold">Rubric Score</div>
@@ -41,9 +42,4 @@ function mapStateToProps(state) {
     }
 }
 
-function mapDispatchToProps(dispatch) {
-    return bindActionCreators({fetchData: fetchData}, dispatch)
-}
-
-
-export default connect(mapStateToProps, mapDispatchToProps)(GradingComponent);
+export default connect(mapStateToProps)(GradingComponentContainer);

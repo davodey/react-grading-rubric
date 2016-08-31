@@ -1,6 +1,6 @@
 import React from 'react';
 
-const gradingCriteriaInfo= (props) => {
+const GradingCriteriaInfo= (props) => {
 
     const descToggled = props.descriptionToggle,
     title = props.title,
@@ -23,4 +23,4 @@ const gradingCriteriaInfo= (props) => {
 
 };
 
-export default gradingCriteriaInfo;
+export default GradingCriteriaInfo;

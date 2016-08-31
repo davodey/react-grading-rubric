@@ -1,18 +1,19 @@
 import React from 'react';
-import GradingCriteriaItem from './GradingCriteriaItem';
+import GradingCriteriaItem from '../containers/GradingCriteriaItem';
+import {createScore} from '../actions/manageScore';
 
-const gradingCriteria = (props) => {
-
+const GradingCriteria = (props) => {
+    let itemId = 1;
     const data = props.loadData.criterias,
     gradingCriteria = data.map((item) => {
-
         return (
             <GradingCriteriaItem
+                score={props.score}
                 descriptionToggle={props.descriptionToggle}
                 pointData={props.loadData.cols}
                 pointDescriptions={item.items}
                 title={item.title}
-                key={item.title}
+                key={itemId++}
                 desc={item.description}
                 numberOfCol={data.length}
             />
@@ -26,4 +27,4 @@ const gradingCriteria = (props) => {
     )
 };
 
-export default gradingCriteria;
+export default GradingCriteria;

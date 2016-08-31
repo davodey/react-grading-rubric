@@ -2,31 +2,40 @@ import React from 'react';
 import PointScaleItem from '../containers/PointScaleItem';
 import TotalPointScaleScore from './TotalPointScaleScore';
 import PointDescription from './PointDescription';
+import { getScore } from '../actions/helpers';
 
 const PointScale = (props) => {
     const data = props;
+    const zero = 0;
 
     const pointScaleItem = data.pointData.map((item) => {
-        console.log(item);
        return (
            <PointScaleItem
+               gcTitle={props.gcTitle}
                title={item.title}
-               points={item.points}
+               points={getScore(item.points, item.colNum, props.col)}
                desc={item.description}
                colNum={item.colNum}
-               colLen={props.col}
                key={item.colNum}
+               pointSelect={props.pointSelect}
+               className={'points-available disabled'}
+               score={props.score}
            />
        )
     });
 
     return (
+
         <div>
             <div className="point-scale">
-                <div tabIndex="0" className="points-available">
-                    <span className="score">0</span>
-                    <div className="visual-marker rectangle"></div>
-                </div>
+                <PointScaleItem
+                    gcTitle={props.gcTitle}
+                    colNum={'0'}
+                    points={zero}
+                    pointSelect={props.pointSelect}
+                    className={'points-available'}
+                    score={props.score}
+                />
 
                 {pointScaleItem}
 
