@@ -2,12 +2,12 @@ import React from 'react';
 import PointScaleItem from '../containers/PointScaleItem';
 import TotalPointScaleScore from './TotalPointScaleScore';
 import PointDescription from './PointDescription';
-import { getScore } from '../actions/helpers';
+import { getScore, objToArr } from '../actions/helpers';
 
 const PointScale = (props) => {
     const data = props;
     const zero = 0;
-
+    const scoreArr = objToArr(props.score);
     const pointScaleItem = data.pointData.map((item) => {
        return (
            <PointScaleItem
@@ -24,8 +24,19 @@ const PointScale = (props) => {
        )
     });
 
-    return (
+    const totalPointItem = scoreArr.map((item) => {
+        if (item.title === props.gcTitle) {
+            return (
+                <TotalPointScaleScore
+                    score={item.value}
+                    key={item.title}
+                />
+            )
+        }
+    });
 
+
+    return (
         <div>
             <div className="point-scale">
                 <PointScaleItem
@@ -39,7 +50,8 @@ const PointScale = (props) => {
 
                 {pointScaleItem}
 
-               <TotalPointScaleScore/>
+                {totalPointItem}
+
             </div>
             <PointDescription/>
         </div>

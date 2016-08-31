@@ -18,3 +18,14 @@ export function returnProp (obj, fn) {
     }
     return fn
 }
+
+export function objToArr (obj) {
+    var arr = [];
+    returnProp(obj, function(item) {
+        if (item.title !== 'total') {
+            arr.push({title:item.title, value:item.value});
+        }
+        return arr;
+    })
+    return arr;
+}
