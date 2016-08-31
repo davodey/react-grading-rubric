@@ -13,10 +13,10 @@ export function pointSelect (obj, point, score) {
     returnProp(scoreCard, function(item) {
         if (newScore.title === item.title) {
            item.value = newScore.value;
-           //scoreCard.total.value
         }
-        console.log(item.value);
-        scoreCard.total.value += item.value;
+        if (item.title !== 'total') {
+            scoreCard.total.value += item.value;
+        }
     });
 
     return {

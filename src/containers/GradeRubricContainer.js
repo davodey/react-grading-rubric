@@ -1,17 +1,14 @@
 import React, { Component } from 'react';
 import {connect} from 'react-redux';
-import { bindActionCreators} from 'redux';
-import { fetchData } from '../actions/fetchData';
 import ShowDescription from './ShowDescription';
 import GradingCriteria from '../components/GradingCriteria';
-import TotalScore from '../components/TotalRubricScore';
+import TotalScore from './TotalRubricScore';
 
 class GradingComponentContainer extends Component {
     constructor(props) {
         super(props);
     }
     render() {
-        console.log('render');
         return (
             <section className="grading-component fixed">
                 <div className="grading-headline">
@@ -29,7 +26,7 @@ class GradingComponentContainer extends Component {
                     <div className="pe-label pe-label--bold">Rubric Score</div>
 
                     {/*load the total score*/}
-                     <TotalScore/>
+                     <TotalScore score={this.props.score}/>
                 </div>
             </section>
         );

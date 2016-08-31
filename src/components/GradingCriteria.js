@@ -1,6 +1,5 @@
 import React from 'react';
 import GradingCriteriaItem from '../containers/GradingCriteriaItem';
-import {createScore} from '../actions/manageScore';
 
 const GradingCriteria = (props) => {
     let itemId = 1;

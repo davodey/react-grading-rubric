@@ -12,7 +12,6 @@ class GradingCriteriaItem extends Component {
     }
 
     render() {
-        console.log(this.props);
         return (
             <div className="grading-criteria">
 
