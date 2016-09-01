@@ -15,7 +15,7 @@
 }
 
 .points-available {
-  margin:0 5px;
+  padding:0 5px;
   text-align: center;
   flex-grow:1;
   cursor:pointer;
@@ -37,6 +37,7 @@
 	div {
 	  background:$disabled;
 	}
+	
 	&:hover {
 	  span {
 		color:$green;
@@ -53,6 +54,14 @@
 		background:$green;
 	  }
 	}
+	&.hover {
+	  span {
+		color:$green;
+	  }
+	  div {
+		background:$green;
+	  }
+	}
   }
 }
 
@@ -60,6 +69,7 @@
   display:flex;
   justify-content: center;
   padding-top:15px;
+  
 }
 
 .grading-criteria {

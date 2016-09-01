@@ -31,7 +31,7 @@ module.exports = {
     historyApiFallback: true,
     contentBase: './',
     inline:true,
-    port: 8008
+    port: 8009
 
   },
   sassLoader: {

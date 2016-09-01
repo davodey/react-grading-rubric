@@ -29,3 +29,12 @@ export function objToArr (obj) {
     })
     return arr;
 }
+
+export function getPreviousSiblings(elem, filter) {
+    var sibs = [];
+    while (elem = elem.previousSibling) {
+        if (elem.nodeType === 3) continue; // text node
+        if (!filter || filter(elem)) sibs.push(elem);
+    }
+    return sibs;
+}

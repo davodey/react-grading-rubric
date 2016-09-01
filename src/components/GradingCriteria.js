@@ -1,10 +1,11 @@
 import React from 'react';
 import GradingCriteriaItem from '../containers/GradingCriteriaItem';
+import {mapArr, returnProp} from '../actions/helpers';
 
 const GradingCriteria = (props) => {
     let itemId = 1;
     const data = props.loadData.criterias,
-    gradingCriteria = data.map((item) => {
+    gradingCriteria = mapArr(data, function(item){
         return (
             <GradingCriteriaItem
                 score={props.score}
@@ -18,7 +19,6 @@ const GradingCriteria = (props) => {
             />
         )
     });
-
     return (
         <div>
             {gradingCriteria}
