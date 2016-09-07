@@ -8,7 +8,6 @@ class AppContainer extends Component {
         this.values = {
             rubricId: '0ebbb4bd-eb93-488b-b21d-79e3a2ea78e3'
         }
-
     }
 
     render () {

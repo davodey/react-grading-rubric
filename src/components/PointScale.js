@@ -9,7 +9,12 @@ const PointScale = (props) => {
     const zero = 0;
     const scoreArr = objToArr(props.score);
 
+    const pointDesc = props.pointDesc.reverse();
+    const added = pointDesc.title
+    const pointTitle =  props.pointData;
 
+    console.log(pointTitle);
+    console.log(pointDesc);
 
     function hover(event) {
         const current = event.currentTarget;
@@ -44,9 +49,7 @@ const PointScale = (props) => {
                             pointSelect={props.pointSelect}
                             key={item2.colNum}
                             unhover={unHover}
-
                         />
-
                     )
                 } else {
                     return (
@@ -63,16 +66,12 @@ const PointScale = (props) => {
                             unhover={unHover}
 
                         />
-
                     )
                 }
-
             })
 
         }
     });
-
-
 
     const totalPointItem = scoreArr.map((item) => {
         if (item.title === props.gcTitle) {
@@ -85,6 +84,29 @@ const PointScale = (props) => {
         }
     });
 
+    const pointDescription = scoreArr.map((item) => {
+        if ((item.title === props.gcTitle) && (item.value > 0)) {
+            return pointTitle.map((item2) => {
+               const convertedPoints = getScore(item2.points, item2.colNum, props.col);
+               if (convertedPoints === item.value) {
+                    pointDesc.map((item3) => {
+                           console.log('ITEM NEEDED', item3);
+                           console.log(convertedPoints);
+                           console.log(item.value);
+                           console.log(props);
+                   });
+
+
+                   return (
+                       <PointDescription
+                           title={item2.title}
+                       />
+                   )
+               }
+            })
+        }
+
+    });
 
     return (
         <div>
@@ -97,13 +119,10 @@ const PointScale = (props) => {
                     className={'points-available'}
                     score={props.score}
                 />
-
                 {pointScaleItem}
-
                 {totalPointItem}
-
             </div>
-            <PointDescription/>
+            {pointDescription}
         </div>
 
     )
