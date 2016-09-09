@@ -17,10 +17,11 @@ export function pointSelect (title, point, score, quality, desc) {
             item.desc = newScore.desc;
         }
         if (item.title !== 'total') {
-            scoreCard.total.value += item.value;
+
+            scoreCard.total.value += Math.round(item.value);
         };
     });
-
+    console.log('scorecard', scoreCard);
     return {
         type: 'POINT_SELECTED',
         payload: {stateScore: scoreCard}

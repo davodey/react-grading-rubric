@@ -4,12 +4,6 @@ export function mapArr(arr, fn) {
     });
 }
 
-export function getScore (a, b, c) {
-    var worth = a / b;
-    return (worth / c) * b
-}
-
-
 export function returnProp (obj, fn) {
     for (var prop in obj) {
         if (obj.hasOwnProperty(prop)) {
