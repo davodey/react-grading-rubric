@@ -2,28 +2,14 @@ import React from 'react';
 import PointScaleItem from './PointScaleItem';
 import TotalPointScaleScore from './TotalPointScaleScore';
 import PointDescription from './PointDescription';
-import { getScore, objToArr, mapArr, getPreviousSiblings } from '../actions/helpers';
+import {objToArr} from '../actions/helpers';
 
 const PointScale = (props) => {
     const data = props.pointData;
     const zero = 0;
     let scoreArr;
 
-    function hover(event) {
-        const current = event.currentTarget;
-        let arr = getPreviousSiblings(current);
-        mapArr(arr, function(item){
-            item.classList.add('hover');
-        })
-    }
 
-    function unHover(event) {
-        const current = event.currentTarget;
-        let arr = getPreviousSiblings(current);
-        mapArr(arr, function(item){
-            item.classList.remove('hover');
-        })
-    }
 
     // on inital load render points from score Array
     // once an item is selected use the state Array
@@ -47,8 +33,6 @@ const PointScale = (props) => {
                             score={props.score}
                             value={value.points}
                             pointSelect={props.pointSelect}
-                            hover={hover}
-                            unhover={unHover}
                             key={value.points}
                         />
                     )
@@ -63,8 +47,6 @@ const PointScale = (props) => {
                             score={props.score}
                             value={value.points}
                             pointSelect={props.pointSelect}
-                            hover={hover}
-                            unhover={unHover}
                             key={value.points}
                         />
                     )
@@ -111,8 +93,6 @@ const PointScale = (props) => {
                     score={props.score}
                     value={0}
                     pointSelect={props.pointSelect}
-                    hover={hover}
-                    unhover={unHover}
                 />
 
                 {pointScaleItem}

@@ -38,3 +38,19 @@ export function getPreviousSiblings(elem, filter) {
     }
     return sibs;
 }
+
+export function hover(event) {
+    const current = event.currentTarget;
+    let arr = getPreviousSiblings(current);
+    mapArr(arr, function(item){
+        item.classList.add('hover');
+    })
+}
+
+export function unHover(event) {
+    const current = event.currentTarget;
+    let arr = getPreviousSiblings(current);
+    mapArr(arr, function(item){
+        item.classList.remove('hover');
+    })
+}

@@ -1,10 +1,11 @@
 import React from 'react';
+import { hover, unHover } from '../actions/helpers';
 
 const PointScaleItem = (props) => {
     return (
         <div tabIndex="0"
-             onMouseLeave={props.unhover}
-             onMouseEnter={props.hover}
+             onMouseLeave={unHover}
+             onMouseEnter={hover}
              onClick={() => {props.pointSelect(props.title, props.value, props.score, props.quality, props.description)}}
              className={props.className}>
             <span className="score">{props.colNum}</span>
