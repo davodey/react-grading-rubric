@@ -1,4 +1,4 @@
-export default (state = 0, action) => {
+export default (state = {stateScore: true}, action) => {
     switch(action.type) {
         case 'POINT_SELECTED':
             return action.payload;

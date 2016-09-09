@@ -1,0 +1,20 @@
+{
+  "organization" : {
+    "description": "overall desc",
+    "weight": 50,
+    "values" : [
+      {
+        "colNum": 1,
+        "title": "poor",
+        "value": "5",
+        "desc": "this is bad"
+      },
+      {
+        "colNum": 2,
+        "title": "average",
+        "value": "10",
+        "desc": "this is ok"
+      },
+    ]
+  }
+}

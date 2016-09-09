@@ -38,3 +38,15 @@ export function getPreviousSiblings(elem, filter) {
     }
     return sibs;
 }
+
+export function complexMap(arr, arr2, fn) {
+    return arr.map((itemOne) => {
+        for (var prop in itemOne.values) {
+            if (itemOne.values.hasOwnProperty(prop)) {
+                arr2.map((itemTwo) => {
+                    return fn(itemOne.values[prop], itemTwo, itemOne)
+                });
+            }
+        }
+    })
+}

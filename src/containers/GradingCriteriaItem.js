@@ -23,7 +23,7 @@ class GradingCriteriaItem extends Component {
                 />
 
                 {/*Load the point scale*/}
-                <PointScale score={this.props.score} gcTitle={this.props.title} pointSelect={this.props.pointSelect} pointData={this.props.pointData} pointDesc={this.props.pointDescriptions} col={this.props.numberOfCol}/>
+                <PointScale stateScore={this.props.pointSelected.stateScore} score={this.props.score} gcTitle={this.props.title} pointSelect={this.props.pointSelect} pointData={this.props.pointData} pointDesc={this.props.pointDescriptions} col={this.props.numberOfCol}/>
             </div>
         )
     }

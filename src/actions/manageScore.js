@@ -1,8 +1,8 @@
 import {mapArr, returnProp} from './helpers';
 
 let arr = [];
-// creates object to manage scoring.
 
+// creates object to manage scoring.
 export function createScore (data) {
     mapArr(data, function(item) {
         const criteriaName = item.title;

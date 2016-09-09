@@ -9,6 +9,7 @@ class GradingComponentContainer extends Component {
         super(props);
     }
     render() {
+
         return (
             <section className="grading-component fixed">
                 <div className="grading-headline">

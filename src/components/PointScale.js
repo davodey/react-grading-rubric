@@ -7,14 +7,10 @@ import { getScore, objToArr, mapArr, getPreviousSiblings } from '../actions/help
 const PointScale = (props) => {
     const data = props;
     const zero = 0;
-    const scoreArr = objToArr(props.score);
-
+    let scoreArr;
     const pointDesc = props.pointDesc.reverse();
-    const added = pointDesc.title
     const pointTitle =  props.pointData;
 
-    console.log(pointTitle);
-    console.log(pointDesc);
 
     function hover(event) {
         const current = event.currentTarget;
@@ -32,12 +28,22 @@ const PointScale = (props) => {
         })
     }
 
+    // on inital load render points from score Array
+    if (props.stateScore === true) {
+        scoreArr = objToArr(props.score);
+    } else {
+        scoreArr = objToArr(props.stateScore);
+    }
+
     const pointScaleItem = scoreArr.map((item) => {
+        //console.log('item1', item);
         if (item.title === props.gcTitle) {
             return data.pointData.map(function(item2) {
+               // console.log('item2', item2);
                 const convertedPoints = getScore(item2.points, item2.colNum, props.col);
                 const selectedPoints = item.value;
                 if (selectedPoints >= convertedPoints) {
+
                     return (
                         <PointScaleItem
                             gcTitle={props.gcTitle}
@@ -45,6 +51,7 @@ const PointScale = (props) => {
                             colNum={item2.colNum}
                             score={props.score}
                             value={item.value}
+                            valueTitle={item2.title}
                             points={convertedPoints}
                             pointSelect={props.pointSelect}
                             key={item2.colNum}
@@ -90,10 +97,7 @@ const PointScale = (props) => {
                const convertedPoints = getScore(item2.points, item2.colNum, props.col);
                if (convertedPoints === item.value) {
                     pointDesc.map((item3) => {
-                           console.log('ITEM NEEDED', item3);
-                           console.log(convertedPoints);
-                           console.log(item.value);
-                           console.log(props);
+
                    });
 
 
