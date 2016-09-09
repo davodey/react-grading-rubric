@@ -12,6 +12,7 @@ class GradingCriteriaItem extends Component {
     }
 
     render() {
+
         return (
             <div className="grading-criteria">
 
@@ -19,11 +20,17 @@ class GradingCriteriaItem extends Component {
                 <GradingCriteriaInfo
                     descriptionToggle={this.props.descriptionToggle}
                     title={this.props.title}
-                    desc={this.props.desc}
+                    desc={this.props.description}
                 />
 
                 {/*Load the point scale*/}
-                <PointScale stateScore={this.props.pointSelected.stateScore} score={this.props.score} gcTitle={this.props.title} pointSelect={this.props.pointSelect} pointData={this.props.pointData} pointDesc={this.props.pointDescriptions} col={this.props.numberOfCol}/>
+                <PointScale
+                    cat={this.props.title}
+                    stateScore={this.props.pointSelected.stateScore}
+                    score={this.props.score}
+                    pointSelect={this.props.pointSelect}
+                    pointData={this.props.pointData}
+                />
             </div>
         )
     }
@@ -32,6 +39,7 @@ class GradingCriteriaItem extends Component {
 function mapStateToProps(state) {
     return {
         pointSelected: state.rubricPoints,
+
     }
 }
 

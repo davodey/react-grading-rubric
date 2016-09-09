@@ -4,21 +4,23 @@ import {mapArr, returnProp} from '../actions/helpers';
 
 const GradingCriteria = (props) => {
     let itemId = 1;
-    const data = props.loadData.criterias,
+
+    const data = props.buildScore,
+
     gradingCriteria = mapArr(data, function(item){
         return (
             <GradingCriteriaItem
                 score={props.score}
                 descriptionToggle={props.descriptionToggle}
-                pointData={props.loadData.cols}
-                pointDescriptions={item.items}
+                description={item.description}
+                weight={item.weight}
+                pointData={item.values}
                 title={item.title}
                 key={itemId++}
-                desc={item.description}
-                numberOfCol={data.length}
             />
         )
     });
+
     return (
         <div>
             {gradingCriteria}

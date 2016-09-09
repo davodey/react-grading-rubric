@@ -6,11 +6,11 @@ let arr = [];
 export function createScore (data) {
     mapArr(data, function(item) {
         const criteriaName = item.title;
-        arr.push({title:criteriaName, value: 0})
+        arr.push({title:criteriaName, value: 0,  quality:null, desc: null})
     });
 
     let score = Object.assign({}, arr);
-    score.total = {title:'total', value: 0};
+    score.total = {title:'total', value: 0, quality:null, desc: null};
     return score;
 }
 

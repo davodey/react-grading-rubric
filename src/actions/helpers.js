@@ -23,10 +23,10 @@ export function objToArr (obj) {
     var arr = [];
     returnProp(obj, function(item) {
         if (item.title !== 'total') {
-            arr.push({title:item.title, value:item.value});
+            arr.push({title:item.title, value:item.value, quality:item.quality, desc:item.desc});
         }
         return arr;
-    })
+    });
     return arr;
 }
 
@@ -37,16 +37,4 @@ export function getPreviousSiblings(elem, filter) {
         if (!filter || filter(elem)) sibs.push(elem);
     }
     return sibs;
-}
-
-export function complexMap(arr, arr2, fn) {
-    return arr.map((itemOne) => {
-        for (var prop in itemOne.values) {
-            if (itemOne.values.hasOwnProperty(prop)) {
-                arr2.map((itemTwo) => {
-                    return fn(itemOne.values[prop], itemTwo, itemOne)
-                });
-            }
-        }
-    })
 }

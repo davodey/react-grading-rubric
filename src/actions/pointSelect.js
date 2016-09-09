@@ -1,29 +1,26 @@
 import {returnProp} from './helpers';
 
-export function pointSelect (obj, point, score, title) {
-
-    console.log('title', title);
-
+export function pointSelect (title, point, score, quality, desc) {
     const scoreCard = score;
     const newScore = {
-        title:obj,
-        value:point,
-        valueTitle: title,
-        valueDesc: null
+        title: title,
+        value: point,
+        quality: quality,
+        desc: desc
     };
-
 
     scoreCard.total.value = 0;
     returnProp(scoreCard, function(item) {
         if (newScore.title === item.title) {
             item.value = newScore.value;
-            item.valueTitle = newScore.valueTitle;
-            item.valueDesc = newScore.valueDesc;
+            item.quality = newScore.quality;
+            item.desc = newScore.desc;
         }
         if (item.title !== 'total') {
             scoreCard.total.value += item.value;
-        }
+        };
     });
+
     return {
         type: 'POINT_SELECTED',
         payload: {stateScore: scoreCard}

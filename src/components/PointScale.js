@@ -1,16 +1,13 @@
 import React from 'react';
-import PointScaleItem from '../containers/PointScaleItem';
+import PointScaleItem from './PointScaleItem';
 import TotalPointScaleScore from './TotalPointScaleScore';
 import PointDescription from './PointDescription';
 import { getScore, objToArr, mapArr, getPreviousSiblings } from '../actions/helpers';
 
 const PointScale = (props) => {
-    const data = props;
+    const data = props.pointData;
     const zero = 0;
     let scoreArr;
-    const pointDesc = props.pointDesc.reverse();
-    const pointTitle =  props.pointData;
-
 
     function hover(event) {
         const current = event.currentTarget;
@@ -29,59 +26,58 @@ const PointScale = (props) => {
     }
 
     // on inital load render points from score Array
+    // once an item is selected use the state Array
     if (props.stateScore === true) {
         scoreArr = objToArr(props.score);
     } else {
         scoreArr = objToArr(props.stateScore);
     }
 
-    const pointScaleItem = scoreArr.map((item) => {
-        //console.log('item1', item);
-        if (item.title === props.gcTitle) {
-            return data.pointData.map(function(item2) {
-               // console.log('item2', item2);
-                const convertedPoints = getScore(item2.points, item2.colNum, props.col);
-                const selectedPoints = item.value;
-                if (selectedPoints >= convertedPoints) {
-
+   const pointScaleItem = scoreArr.map((item) => {
+        return data.map((value) => {
+            if (item.title === value.cat) {
+                if (item.value >= value.points) {
                     return (
                         <PointScaleItem
-                            gcTitle={props.gcTitle}
+                            colNum={value.col}
+                            description={value.desc}
+                            quality={value.title}
+                            title={value.cat}
                             className={'points-available'}
-                            colNum={item2.colNum}
                             score={props.score}
-                            value={item.value}
-                            valueTitle={item2.title}
-                            points={convertedPoints}
+                            value={value.points}
                             pointSelect={props.pointSelect}
-                            key={item2.colNum}
+                            hover={hover}
                             unhover={unHover}
+                            key={value.points}
                         />
                     )
                 } else {
                     return (
                         <PointScaleItem
-                            gcTitle={props.gcTitle}
+                            colNum={value.col}
+                            description={value.desc}
+                            quality={value.title}
+                            title={value.cat}
                             className={'points-available disabled'}
-                            colNum={item2.colNum}
                             score={props.score}
-                            value={item.value}
-                            points={convertedPoints}
+                            value={value.points}
                             pointSelect={props.pointSelect}
-                            key={item2.colNum}
                             hover={hover}
                             unhover={unHover}
-
+                            key={value.points}
                         />
                     )
                 }
-            })
+            }
+        });
+   });
 
-        }
-    });
+
+
 
     const totalPointItem = scoreArr.map((item) => {
-        if (item.title === props.gcTitle) {
+        if (item.title === props.cat) {
             return (
                 <TotalPointScaleScore
                     score={item.value}
@@ -92,40 +88,37 @@ const PointScale = (props) => {
     });
 
     const pointDescription = scoreArr.map((item) => {
-        if ((item.title === props.gcTitle) && (item.value > 0)) {
-            return pointTitle.map((item2) => {
-               const convertedPoints = getScore(item2.points, item2.colNum, props.col);
-               if (convertedPoints === item.value) {
-                    pointDesc.map((item3) => {
-
-                   });
-
-
-                   return (
-                       <PointDescription
-                           title={item2.title}
-                       />
-                   )
-               }
-            })
+        if (item.title === props.cat)  {
+            return (
+                <PointDescription
+                    quality={item.quality}
+                    desc={item.desc}
+                    key={item.title}
+                />
+            )
         }
-
     });
 
     return (
         <div>
             <div className="point-scale">
                 <PointScaleItem
-                    gcTitle={props.gcTitle}
+                    title={props.cat}
+                    description={' '}
+                    quality={' '}
                     colNum={'0'}
-                    points={zero}
-                    pointSelect={props.pointSelect}
                     className={'points-available'}
                     score={props.score}
+                    value={0}
+                    pointSelect={props.pointSelect}
+                    hover={hover}
+                    unhover={unHover}
                 />
+
                 {pointScaleItem}
                 {totalPointItem}
             </div>
+
             {pointDescription}
         </div>
 

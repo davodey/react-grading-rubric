@@ -7,7 +7,6 @@ export function fetchData(rubricId) {
             fn(obj[prop]);
         }
     }
-
     // run the function to find the id, then return it as the data object to use.
     function returnData (id) {
         var rubric = {};

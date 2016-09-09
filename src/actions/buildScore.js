@@ -1,6 +1,4 @@
-import {mapArr, returnProp, complexMap} from './helpers';
-
-let arr = [];
+import {mapArr, returnProp} from './helpers';
 
 // creates object to manage scoring.
 export function buildScore (data) {
@@ -10,11 +8,12 @@ export function buildScore (data) {
     let arr = [];
     let buildScoreArr = [];
 
-    function Object(desc, points, title, cat) {
+    function Object(desc, points, title, cat, col) {
         this.desc = desc;
         this.points = points;
         this.title = title;
         this.cat = cat;
+        this.col = col;
     }
 
     mapArr(values, function(item) {
@@ -25,6 +24,7 @@ export function buildScore (data) {
         let count = 1;
         let buildArr = [];
         let build;
+
         arr.push({title: item.title, description: item.description, weight: item.weight, values: values});
             returnProp(item.items.reverse(), function (item3) {
                 item3.count = count++;
@@ -34,7 +34,7 @@ export function buildScore (data) {
                 mapArr(arr, function (arritem) {
                     mapArr(arritem.values, function (arrvalues) {
                         if ((newItem.category === arritem.title) && (newItem.count === arrvalues.colNum)) {
-                            build = new Object(newItem.desc, arrvalues.pointsConverted, arrvalues.title, newItem.category );
+                            build = new Object(newItem.desc, arrvalues.pointsConverted, arrvalues.title, newItem.category, arrvalues.colNum );
                             buildArr.push(build);
                             return buildArr;
                         }

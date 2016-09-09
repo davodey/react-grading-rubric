@@ -21,7 +21,7 @@ class GradingComponentContainer extends Component {
                 <div className="grading-criteria-header">
 
                     {/*load the grading critera*/}
-                    <GradingCriteria score={this.props.score} descriptionToggle={this.props.descriptions} loadData={this.props.loadData}/>
+                    <GradingCriteria buildScore={this.props.buildScore} score={this.props.score} descriptionToggle={this.props.descriptions} loadData={this.props.loadData}/>
                 </div>
                 <div className="total-score margin-bottom">
                     <div className="pe-label pe-label--bold">Rubric Score</div>
