@@ -1,4 +1,4 @@
-import {mapArr, returnProp} from './helpers';
+import {mapArr, returnProp, round} from './helpers';
 
 // creates object to manage scoring.
 export function buildScore (data) {
@@ -10,7 +10,7 @@ export function buildScore (data) {
 
     function Object(desc, points, title, cat, col) {
         this.desc = desc;
-        this.points = points;
+        this.points = round(points, 1);
         this.title = title;
         this.cat = cat;
         this.col = col;

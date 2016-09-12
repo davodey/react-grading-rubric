@@ -48,3 +48,8 @@ export function unHover(event) {
         item.classList.remove('hover');
     })
 }
+
+export function round(value, precision) {
+    var multiplier = Math.pow(10, precision || 0);
+    return Math.floor(value * multiplier) / multiplier;
+}
