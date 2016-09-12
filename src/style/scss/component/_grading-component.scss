@@ -70,6 +70,16 @@
   justify-content: center;
   padding-top:15px;
   
+  button {
+	background:none;
+	border:0;
+	line-height:auto !important;
+	&.disabled {
+
+	}
+	
+  }
+  
 }
 
 .grading-criteria {

@@ -10,8 +10,7 @@ const PointScale = (props) => {
     let scoreArr;
 
 
-
-    // on inital load render points from score Array
+    // on inital load render points from existing score Array
     // once an item is selected use the state Array
     if (props.stateScore === true) {
         scoreArr = objToArr(props.score);
@@ -19,6 +18,7 @@ const PointScale = (props) => {
         scoreArr = objToArr(props.stateScore);
     }
 
+    // render the point bars
    const pointScaleItem = scoreArr.map((item) => {
         return data.map((value) => {
             if (item.title === value.cat) {
@@ -55,9 +55,7 @@ const PointScale = (props) => {
         });
    });
 
-
-
-
+    // render the score for the row
     const totalPointItem = scoreArr.map((item) => {
         if (item.title === props.cat) {
             return (
@@ -69,6 +67,7 @@ const PointScale = (props) => {
         }
     });
 
+    // render the descriptions associated with the score
     const pointDescription = scoreArr.map((item) => {
         if (item.title === props.cat)  {
             return (
@@ -81,6 +80,7 @@ const PointScale = (props) => {
         }
     });
 
+    // render
     return (
         <div>
             <div className="point-scale">

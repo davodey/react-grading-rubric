@@ -1,6 +1,4 @@
-button {
-  line-height:0 !important;
-}
+
 .selected {
   @include button-style($light-blue, $blue);
   
