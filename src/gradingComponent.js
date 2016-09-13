@@ -17,10 +17,9 @@ export default class GradingComponent extends Component {
 
     render() {
         const data = fetchData(this.props.rubricId).payload;
-
         if ((this.props.rubricId !== undefined) && (this.props.rubricId !== "") ) {
-            const create = createScore(fetchData(this.props.rubricId).payload);
-            const build = buildScore(fetchData(this.props.rubricId).payload);
+            const create = createScore(data);
+            const build = buildScore(data);
             return (
                 <Provider store={createStoreWithMiddleware(reducers)}>
                     <GradeRubricContainer buildScore={build} score={create} loadData={data}/>
