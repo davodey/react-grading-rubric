@@ -1,0 +1,43 @@
+{
+  "assignmentId":"<props.assignmentId>",
+  "sectionId":"<props.sectionId>",
+  "userId":"<props.userId>",
+  "rubricId":"<props.rubricId>",
+  "scores":[
+    {
+      "title":"Organization",
+      "rowNum":1,
+      "value":10,
+      "quality": "Average",
+      "desc":"Organizational pattern (specific introduction and conclusion, sequenced material within the body, and transitions) is intermittently observable within the presentation."
+    },
+    {
+      "title":"Language",
+      "rowNum":2,
+      "value":5,
+      "quality": "Poor",
+      "desc":"Language choices are unclear and minimally support the effectiveness of the presentation. Language in presentation is not appropriate to audience."
+    },
+    {
+      "title": "Delivery",
+      "rowNum": 3,
+      "value": 5,
+      "quality": "Poor",
+      "desc":"Delivery techniques (posture, gesture, eye contact, and vocal expressiveness) detract from the understandability of the presentation, and speaker appears uncomfortable."
+    },
+    {
+      "title":"Supporting Material",
+      "rowNum":4,
+      "value":5,
+      "quality": "Poor",
+      "desc":"Insufficient supporting materials (explanations, examples, illustrations, statistics, analogies, quotations from relevant authorities) make reference to information or analysis that minimally supports the presentation or establishes the presenter's credibility/authority on the topic."
+    },
+    {
+      "title":"Central Message",
+      "rowNum":5,
+      "value":5,
+      "quality": "Poor",
+      "desc":"Central message can be deduced, but is not explicitly stated in the presentation."
+    }
+  ]
+}

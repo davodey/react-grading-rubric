@@ -13,19 +13,23 @@ import {buildScore} from './actions/buildScore';
 export default class GradingComponent extends Component {
     constructor(props) {
         super(props);
-        this.values = {
-            data: fetchData(this.props.rubricId).payload,
-            score: createScore(fetchData(this.props.rubricId).payload.criterias),
-            buildScore: buildScore(fetchData(this.props.rubricId).payload)
-        }
     }
+
     render() {
-        const score = this.values.score;
-        const buildScore = this.values.buildScore;
-        return (
-           <Provider store={createStoreWithMiddleware(reducers)}>
-                <GradeRubricContainer buildScore={buildScore} score={score} loadData={this.values.data}/>
-           </Provider>
-        );
+        const data = fetchData(this.props.rubricId).payload;
+
+        if ((this.props.rubricId !== undefined) && (this.props.rubricId !== "") ) {
+            const create = createScore(fetchData(this.props.rubricId).payload);
+            const build = buildScore(fetchData(this.props.rubricId).payload);
+            return (
+                <Provider store={createStoreWithMiddleware(reducers)}>
+                    <GradeRubricContainer buildScore={build} score={create} loadData={data}/>
+                </Provider>
+            );
+        } else {
+            return (
+               <div> Sorry no data</div>
+            );
+        }
     }
 }

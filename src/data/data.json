@@ -248,9 +248,6 @@
           "weight":50,
           "description":"How well can you organize your thoughts for a coherent presetation",
           "rowNum":1,
-          "value":20,
-          "quality": "Exemplary",
-          "desc": "Organizational pattern (specific introduction and conclusion, sequenced material within the body, and transitions) is clearly and consistently observable and is skillful and makes the content of the presentation cohesive.",
           "items":[
             {
               "desc":"Organizational pattern (specific introduction and conclusion, sequenced material within the body, and transitions) is clearly and consistently observable and is skillful and makes the content of the presentation cohesive.",
@@ -289,9 +286,6 @@
           "weight":50,
           "description":"How well do you use language",
           "rowNum":1,
-          "value":15,
-          "quality": "Average",
-          "desc": "Language choices are mundane and commonplace and partially support the effectiveness of the presentation. Language in presentation is appropriate to audience.",
           "items":[
             {
               "desc":"Language choices are imaginative, memorable, and compelling, and enhance the effectiveness of the presentation. Language in presentation is appropriate to audience.",

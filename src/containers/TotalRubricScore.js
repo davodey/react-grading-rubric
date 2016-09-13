@@ -2,6 +2,7 @@ import React, { Component } from 'react';
 import {connect} from 'react-redux';
 
 class TotalScore extends Component {
+
     constructor(props) {
         super(props);
     }

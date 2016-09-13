@@ -1,4 +1,4 @@
-import {returnProp} from './helpers';
+import {mapArr} from './helpers';
 
 export function pointSelect (title, point, score, quality, desc) {
     const scoreCard = score;
@@ -10,7 +10,9 @@ export function pointSelect (title, point, score, quality, desc) {
     };
 
     scoreCard.total.value = 0;
-    returnProp(scoreCard, function(item) {
+    console.log('scoreCard', scoreCard);
+    mapArr(scoreCard.scores, function(item) {
+
         if (newScore.title === item.title) {
             item.value = newScore.value;
             item.quality = newScore.quality;
@@ -18,13 +20,11 @@ export function pointSelect (title, point, score, quality, desc) {
         }
         if (item.title !== 'total') {
             scoreCard.total.value += item.value;
-        };
+        }
     });
 
     // round total value up
     scoreCard.total.value = Math.ceil(scoreCard.total.value);
-
-    console.log('scorecard', scoreCard);
     return {
         type: 'POINT_SELECTED',
         payload: {stateScore: scoreCard}

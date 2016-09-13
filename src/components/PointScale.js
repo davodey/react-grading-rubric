@@ -9,13 +9,12 @@ const PointScale = (props) => {
     const zero = 0;
     let scoreArr;
 
-
     // on inital load render points from existing score Array
     // once an item is selected use the state Array
     if (props.stateScore === true) {
-        scoreArr = objToArr(props.score);
+        scoreArr = objToArr(props.score.scores);
     } else {
-        scoreArr = objToArr(props.stateScore);
+        scoreArr = objToArr(props.stateScore.scores);
     }
 
     // render the point bars

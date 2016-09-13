@@ -1,4 +1,5 @@
 import data from '../data/data.json';
+import saved from '../data/saved.json';
 
 export function fetchData(rubricId) {
     // cycle through data and find the rubric id
@@ -7,6 +8,7 @@ export function fetchData(rubricId) {
             fn(obj[prop]);
         }
     }
+
     // run the function to find the id, then return it as the data object to use.
     function returnData (id) {
         var rubric = {};
@@ -18,7 +20,7 @@ export function fetchData(rubricId) {
             });
 
         });
-
+        rubric.saved = saved;
         return rubric;
     }
 

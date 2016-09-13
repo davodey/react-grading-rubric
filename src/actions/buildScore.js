@@ -1,6 +1,6 @@
 import {mapArr, returnProp, round} from './helpers';
 
-// creates object to manage scoring.
+// creates and builds the score object, to be used for UI rendering.
 export function buildScore (data) {
     const values = data.cols;
     const collection = data.criterias;
@@ -43,6 +43,6 @@ export function buildScore (data) {
             });
         buildScoreArr.push({title: item.title, description: item.description, weight: item.weight, values: buildArr})
     });
-    console.log(buildScoreArr);
+
    return buildScoreArr;
 }
