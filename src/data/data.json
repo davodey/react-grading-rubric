@@ -1,18 +1,252 @@
 {
   "systemRubrics":[
     {
-      "_id":"d5b4aceb-6bcb-4116-a44e-72be5a92ed2e",
+      "_id":"a861c88e-9f6f-4d94-ba65-ce962a49a055",
       "systemRubric":true,
-      "title":"CIVIC ENGAGEMENT VALUE RUBRIC",
+      "title":"AACU Intercultural Knowledge and Competence VALUE Rubric",
+      "product":"MS",
+      "createDate":1471901122,
+      "criterias":[
+        {
+          "title":"Knowledge",
+          "weight":50,
+          "description":"Cultural self- awareness",
+          "rowNum":1,
+          "items":[
+            {
+              "desc":"Articulates insights into own cultural rules and biases (e.g. seeking complexity; aware of how her/his experiences have shaped these rules, and how to recognize and respond to cultural biases, resulting in a shift in self-description.)",
+              "number":1,
+              "itemRow":1,
+              "weight":null
+            },
+            {
+              "desc":"Recognizes new perspectives about own cultural rules and biases (e.g. not looking for sameness; comfortable with the complexities that new perspectives offer.)",
+              "number":2,
+              "itemRow":1,
+              "weight":null
+            },
+            {
+              "desc":"Identifies own cultural rules and biases (e.g. with a strong preference for those rules shared with own cultural group and seeks the same in others.)",
+              "number":3,
+              "itemRow":1,
+              "weight":null
+            },
+            {
+              "desc":"Shows minimal awareness of own cultural rules and biases (even those shared with own cultural group(s)) (e.g. uncomfortable with identifying possible cultural differences with others.)",
+              "number":4,
+              "itemRow":1,
+              "weight":null
+            }
+          ],
+          "itemCounter":[
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "title":"Knowledge",
+          "weight":50,
+          "description":"Knowledge of cultural worldview frameworks",
+          "rowNum":2,
+          "items":[
+            {
+              "desc":"Demonstrates sophisticated understanding of the complexity of elements important to members of another culture in relation to its history, values, politics, communication styles, economy, or beliefs and practices.",
+              "number":1,
+              "itemRow":2,
+              "weight":null
+            },
+            {
+              "desc":"Demonstrates adequate understanding of the complexity of elements important to members of another culture in relation to its history, values, politics, communication styles, economy, or beliefs and practices.",
+              "number":2,
+              "itemRow":2,
+              "weight":null
+            },
+            {
+              "desc":"Demonstrates partial understanding of the complexity of elements important to members of another culture in relation to its history, values, politics, communication styles, economy, or beliefs and practices.",
+              "number":3,
+              "itemRow":2,
+              "weight":null
+            },
+            {
+              "desc":"Demonstrates surface understanding of the complexity of elements important to members of another culture in relation to its history, values, politics, communication styles, economy, or beliefs and practices.",
+              "number":4,
+              "itemRow":2,
+              "weight":null
+            }
+          ]
+        },
+        {
+          "title":"Skills",
+          "weight":50,
+          "description":"Empathy",
+          "rowNum":3,
+          "items":[
+            {
+              "desc":"Interprets intercultural experience from the perspectives of own and more than one worldview and demonstrates ability to act in a supportive manner that recognizes the feelings of another cultural group.",
+              "number":1,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"Recognizes intellectual and emotional dimensions of more than one worldview and sometimes uses more than one worldview in interactions",
+              "number":2,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"Identifies components of other cultural perspectives but responds in all situations with own worldview",
+              "number":3,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"Views the experience of others but does so through own cultural worldview.",
+              "number":4,
+              "itemRow":3,
+              "weight":null
+            }
+          ]
+        },
+        {
+          "title":"Skills",
+          "weight":50,
+          "description":"Verbal and nonverbal communication",
+          "rowNum":4,
+          "items":[
+            {
+              "desc":"Articulates a complex understanding of cultural differences in verbal and nonverbal communication (e.g., demonstrates understanding of the degree to which people use physical contact while communicating in different cultures or use direct/indirect and explicit/implicit meanings) and is able to skillfully negotiate a shared understanding based on those differences.",
+              "number":1,
+              "itemRow":4,
+              "weight":null
+            },
+            {
+              "desc":"Recognizes and participates in cultural differences in verbal and nonverbal communication and begins to negotiate a shared understanding based on those differences.",
+              "number":2,
+              "itemRow":4,
+              "weight":null
+            },
+            {
+              "desc":"Identifies some cultural differences in verbal and nonverbal communication and is aware that misunderstandings can occur based on those differences but is still unable to negotiate a shared understanding.",
+              "number":3,
+              "itemRow":4,
+              "weight":null
+            },
+            {
+              "desc":"Has a minimal level of understanding of cultural differences in verbal and nonverbal communication; is unable to negotiate a shared understanding.",
+              "number":4,
+              "itemRow":4,
+              "weight":null
+            }
+          ]
+        },
+        {
+          "title":"Attitudes",
+          "weight":50,
+          "description":"Curiosity",
+          "rowNum":5,
+          "items":[
+            {
+              "desc":"Asks complex questions about other cultures, seeks out and articulates answers to these questions that reflect multiple cultural perspectives.",
+              "number":1,
+              "itemRow":5,
+              "weight":null
+            },
+            {
+              "desc":"Asks deeper questions about other cultures and seeks out answers to these questions.",
+              "number":2,
+              "itemRow":5,
+              "weight":null
+            },
+            {
+              "desc":"Asks simple or surface questions about other cultures.",
+              "number":3,
+              "itemRow":5,
+              "weight":null
+            },
+            {
+              "desc":"States minimal interest in learning more about other cultures.",
+              "number":4,
+              "itemRow":5,
+              "weight":null
+            }
+          ]
+        },
+        {
+          "title":"Attitudes",
+          "weight":50,
+          "description":"Openness",
+          "rowNum":6,
+          "items":[
+            {
+              "desc":"Initiates and develops interactions with culturally different others. Suspends judgment in valuing her/his interactions with culturally different others.",
+              "number":1,
+              "itemRow":6,
+              "weight":null
+            },
+            {
+              "desc":"Begins to initiate and develop interactions with culturally different others. Begins to suspend judgment in valuing her/his interactions with culturally different others.",
+              "number":2,
+              "itemRow":6,
+              "weight":null
+            },
+            {
+              "desc":"Expresses openness to most, if not all, interactions with culturally different others. Has difficulty suspending any judgment in her/his interactions with culturally different others, and is aware of own judgment and expresses a willingness to change.",
+              "number":3,
+              "itemRow":6,
+              "weight":null
+            },
+            {
+              "desc":"Receptive to interacting with culturally different others. Has difficulty suspending any judgment in her/his interactions with culturally different others, but is unaware of own judgment.",
+              "number":4,
+              "itemRow":6,
+              "weight":null
+            }
+          ]
+        }
+      ],
+      "cols":[
+        {
+          "title":"Benchmark",
+          "points":25,
+          "description":"",
+          "colNum":1
+        },
+        {
+          "title":"Fair",
+          "points":50,
+          "description":"",
+          "colNum":2
+        },
+        {
+          "title":"Average",
+          "points":75,
+          "description":"",
+          "colNum":3
+        },
+        {
+          "title":"Capstone",
+          "points":100,
+          "description":"",
+          "colNum":4
+        }
+      ],
+      "rubric_type":"PSN-AS-ANTHR",
+      "column_scale":"low-to-high"
+    },
+    {
+      "_id":"0c12e98c-1174-4e4d-816e-81256d7ba4ea",
+      "systemRubric":true,
+      "title":"AACU Civic Engagement VALUE Rubric",
       "product":"MS",
       "createDate":1471901122,
       "criterias":[
         {
           "title":"Diversity of Communities and Cultures",
           "weight":50,
-          "description":"How well can the speaker adapt to different audiences",
+          "description":"",
           "rowNum":1,
-          "value":20,
           "items":[
             {
               "desc":"Demonstrates evidence of adjustment in own attitudes and beliefs because of working within and learning from diversity of communities and cultures. Promotes others' engagement with diversity.",
@@ -49,8 +283,8 @@
         {
           "title":"Analysis of Knowledge",
           "weight":50,
-          "description":"How well is the material presented covered",
-          "rowNum":1,
+          "description":"",
+          "rowNum":2,
           "items":[
             {
               "desc":"Connects and extends knowledge (facts, theories, etc.) from one's own academic study/field/discipline to civic engagement and to one's own participation in civic life, politics, and government.' engagement with diversity.",
@@ -81,8 +315,8 @@
         {
           "title":"Civic Identity and Commitment",
           "weight":50,
-          "description":"Do you show concern for the community",
-          "rowNum":1,
+          "description":"",
+          "rowNum":3,
           "items":[
             {
               "desc":"Provides evidence of experience in civic-engagement activities and describes what she/he has learned about her or himself as it relates to a reinforced and clarified sense of civic identity and continued commitment to public action.",
@@ -113,8 +347,8 @@
         {
           "title":"Civic Communication",
           "weight":50,
-          "description":"How well do you communicate with the community",
-          "rowNum":1,
+          "description":"",
+          "rowNum":4,
           "items":[
             {
               "desc":"Tailors communication strategies to effectively express, listen, and adapt to others to establish relationships to further civic action",
@@ -145,8 +379,8 @@
         {
           "title":"Civic Action and Reflection",
           "weight":50,
-          "description":"How involved are you in the community",
-          "rowNum":1,
+          "description":"",
+          "rowNum":5,
           "items":[
             {
               "desc":"Demonstrates independent experience and shows initiative in team leadership of complex or multiple civic engagement activities, accompanied by reflective insights or analysis about the aims and accomplishments of one’s actions.",
@@ -177,8 +411,8 @@
         {
           "title":"Civic Contexts/Structures",
           "weight":50,
-          "description":"How well do you use relevant examples from the community",
-          "rowNum":1,
+          "description":"",
+          "rowNum":6,
           "items":[
             {
               "desc":"Demonstrates ability and commitment to collaboratively work across and within community contexts and structures to achieve a civic aim.",
@@ -209,7 +443,7 @@
       ],
       "cols":[
         {
-          "title":"Poor",
+          "title":"Benchmark",
           "points":25,
           "description":"",
           "colNum":1
@@ -227,222 +461,19 @@
           "colNum":3
         },
         {
-          "title":"Exemplary",
+          "title":"Capstone",
           "points":100,
           "description":"",
           "colNum":4
         }
       ],
-      "rubric_type":"CIVIC-ENGAGEMENT",
+      "rubric_type":"PSN-AS-ANTHR",
       "column_scale":"low-to-high"
     },
     {
-      "_id":"0ebbb4bd-eb93-488b-b21d-79e3a2ea78e3",
+      "_id":"8e460277-08ca-4a6a-9fec-22ab6da1229a",
       "systemRubric":true,
-      "title":"ORAL COMMUNICATION VALUE RUBRIC",
-      "product":"MS",
-      "createDate":1471901122,
-      "criterias":[
-        {
-          "title":"Organization",
-          "weight":50,
-          "description":"How well can you organize your thoughts for a coherent presetation",
-          "rowNum":1,
-          "items":[
-            {
-              "desc":"Organizational pattern (specific introduction and conclusion, sequenced material within the body, and transitions) is clearly and consistently observable and is skillful and makes the content of the presentation cohesive.",
-              "number":1,
-              "itemRow":1,
-              "weight":null
-            },
-            {
-              "desc":"Organizational pattern (specific introduction and conclusion, sequenced material within the body, and transitions) is clearly and consistently observable within the presentation.",
-              "number":2,
-              "itemRow":1,
-              "weight":null
-            },
-            {
-              "desc":"Organizational pattern (specific introduction and conclusion, sequenced material within the body, and transitions) is intermittently observable within the presentation.",
-              "number":3,
-              "itemRow":1,
-              "weight":null
-            },
-            {
-              "desc":"Organizational pattern (specific introduction and conclusion, sequenced material within the body, and transitions) is not observable within the presentation.",
-              "number":4,
-              "itemRow":1,
-              "weight":null
-            }
-          ],
-          "itemCounter":[
-            1,
-            2,
-            3,
-            4
-          ]
-        },
-        {
-          "title":"Language",
-          "weight":50,
-          "description":"How well do you use language",
-          "rowNum":1,
-          "items":[
-            {
-              "desc":"Language choices are imaginative, memorable, and compelling, and enhance the effectiveness of the presentation. Language in presentation is appropriate to audience.",
-              "number":1,
-              "itemRow":2,
-              "weight":null
-            },
-            {
-              "desc":"Language choices are thoughtful and generally support the effectiveness of the presentation. Language in presentation is appropriate to audience.",
-              "number":2,
-              "itemRow":2,
-              "weight":null
-            },
-            {
-              "desc":"Language choices are mundane and commonplace and partially support the effectiveness of the presentation. Language in presentation is appropriate to audience.",
-              "number":3,
-              "itemRow":2,
-              "weight":null
-            },
-            {
-              "desc":"Language choices are unclear and minimally support the effectiveness of the presentation. Language in presentation is not appropriate to audience.",
-              "number":4,
-              "itemRow":2,
-              "weight":null
-            }
-          ]
-        },
-        {
-          "title":"Delivery",
-          "weight":50,
-          "description":"How well do you deliver your speech",
-          "rowNum":1,
-          "items":[
-            {
-              "desc":"Delivery techniques (posture, gesture, eye contact, and vocal expressiveness) make the presentation compelling, and speaker appears polished and confident.",
-              "number":1,
-              "itemRow":3,
-              "weight":null
-            },
-            {
-              "desc":"Delivery techniques (posture, gesture, eye contact, and vocal expressiveness) make the presentation interesting, and speaker appears comfortable.",
-              "number":2,
-              "itemRow":3,
-              "weight":null
-            },
-            {
-              "desc":"Delivery techniques (posture, gesture, eye contact, and vocal expressiveness) make the presentation understandable, and speaker appears tentative.",
-              "number":3,
-              "itemRow":3,
-              "weight":null
-            },
-            {
-              "desc":"Delivery techniques (posture, gesture, eye contact, and vocal expressiveness) detract from the understandability of the presentation, and speaker appears uncomfortable.",
-              "number":4,
-              "itemRow":3,
-              "weight":null
-            }
-          ]
-        },
-        {
-          "title":"Supporting Material",
-          "weight":50,
-          "description":"How well do you visualize your argument to the audience",
-          "rowNum":1,
-          "items":[
-            {
-              "desc":"A variety of types of supporting materials (explanations, examples, illustrations, statistics, analogies, quotations from relevant authorities) make appropriate reference to information or analysis that significantly supports the presentation or establishes the presenter's credibility/authority on the topic.",
-              "number":1,
-              "itemRow":4,
-              "weight":null
-            },
-            {
-              "desc":"Supporting materials (explanations, examples, illustrations, statistics, analogies, quotations from relevant authorities) make appropriate reference to information or analysis that generally supports the presentation or establishes the presenter's credibility/authority on the topic.",
-              "number":2,
-              "itemRow":4,
-              "weight":null
-            },
-            {
-              "desc":"Supporting materials (explanations, examples, illustrations, statistics, analogies, quotations from relevant authorities) make appropriate reference to information or analysis that partially supports the presentation or establishes the presenter's credibility/authority on the topic.",
-              "number":3,
-              "itemRow":4,
-              "weight":null
-            },
-            {
-              "desc":"Insufficient supporting materials (explanations, examples, illustrations, statistics, analogies, quotations from relevant authorities) make reference to information or analysis that minimally supports the presentation or establishes the presenter's credibility/authority on the topic.",
-              "number":4,
-              "itemRow":4,
-              "weight":null
-            }
-          ]
-        },
-        {
-          "title":"Central Message",
-          "weight":50,
-          "description":"How well do you stay on your key point",
-          "rowNum":1,
-          "items":[
-            {
-              "desc":"Central message is compelling (precisely stated, appropriately repeated, memorable, and strongly supported.)",
-              "number":1,
-              "itemRow":5,
-              "weight":null
-            },
-            {
-              "desc":"Central message is clear and consistent with the supporting material.",
-              "number":2,
-              "itemRow":5,
-              "weight":null
-            },
-            {
-              "desc":"Central message is basically understandable but is not often repeated and is not memorable.",
-              "number":3,
-              "itemRow":5,
-              "weight":null
-            },
-            {
-              "desc":"Central message can be deduced, but is not explicitly stated in the presentation.",
-              "number":4,
-              "itemRow":5,
-              "weight":null
-            }
-          ]
-        }
-      ],
-      "cols":[
-        {
-          "title":"Poor",
-          "points":25,
-          "description":"",
-          "colNum":1
-        },
-        {
-          "title":"Fair",
-          "points":50,
-          "description":"",
-          "colNum":2
-        },
-        {
-          "title":"Average",
-          "points":75,
-          "description":"",
-          "colNum":3
-        },
-        {
-          "title":"Exemplary",
-          "points":100,
-          "description":"",
-          "colNum":4
-        }
-      ],
-      "rubric_type":"ORAL-COMMUNICATION",
-      "column_scale":"low-to-high"
-    },
-    {
-      "_id":"0efa5da9-4847-4f00-b70c-d6093811106f",
-      "systemRubric":true,
-      "title":"CREATIVE THINKING VALUE RUBRIC",
+      "title":"AACU Creative Thinking VALUE Rubric",
       "product":"MS",
       "createDate":1471901122,
       "criterias":[
@@ -488,7 +519,7 @@
           "title":"Taking Risks",
           "weight":50,
           "description":"May include personal risk (fear of embarrassment or rejection) or risk of failure in successfully completing assignment, i.e. going beyond original parameters of assignment, introducing new materials and forms, tackling controversial topics, advocating unpopular ideas or solutions.",
-          "rowNum":1,
+          "rowNum":2,
           "items":[
             {
               "desc":"Actively seeks out and follows through on untested and potentially risky directions or approaches to the assignment in the final product.",
@@ -520,7 +551,7 @@
           "title":"Solving Problems",
           "weight":50,
           "description":"",
-          "rowNum":1,
+          "rowNum":3,
           "items":[
             {
               "desc":"Not only develops a logical, consistent plan to solve problem, but recognizes consequences of solution and can articulate reason for choosing solution.",
@@ -552,7 +583,7 @@
           "title":"Embracing Contradictions",
           "weight":50,
           "description":"",
-          "rowNum":1,
+          "rowNum":4,
           "items":[
             {
               "desc":"Integrates alternate, divergent, or contradictory perspectives or ideas fully.",
@@ -584,7 +615,7 @@
           "title":"Innovative Thinking",
           "weight":50,
           "description":"Novelty or uniqueness (of idea, claim, question, form, etc.)",
-          "rowNum":1,
+          "rowNum":5,
           "items":[
             {
               "desc":"Extends a novel or unique idea, question, format, or product to create new knowledge or knowledge that crosses boundaries.",
@@ -616,7 +647,7 @@
           "title":"Connecting, Synthesizing, Transforming",
           "weight":50,
           "description":"",
-          "rowNum":1,
+          "rowNum":6,
           "items":[
             {
               "desc":"Transforms ideas or solutions into entirely new forms.",
@@ -671,13 +702,13 @@
           "colNum":4
         }
       ],
-      "rubric_type":"CREATIVE-THINKING",
+      "rubric_type":"PSN-AS-ANTHR",
       "column_scale":"low-to-high"
     },
     {
-      "_id":"1209375b-9752-463d-95b5-3b7b2bd9a4f5",
+      "_id":"d1806bc2-4897-426b-acf3-2cc35422572f",
       "systemRubric":true,
-      "title":"CRITICAL THINKING VALUE RUBRIC",
+      "title":"AACU Critical Thinking VALUE Rubric",
       "product":"MS",
       "createDate":1471901122,
       "criterias":[
@@ -720,31 +751,31 @@
           ]
         },
         {
-          "title":"Evidence",
+          "title":"Evidence\nSelecting and using information to investigate a point of view or conclusion",
           "weight":50,
-          "description":"Selecting and using information to investigate a point of view or conclusion",
-          "rowNum":1,
+          "description":"",
+          "rowNum":2,
           "items":[
             {
-              "desc":"Information is taken from source(s) with enough interpretation/evaluation to develop a comprehensive analysis or synthesis. Viewpoints of experts are questioned thoroughly.",
+              "desc":"Information is taken from source(s) with enough interpretation/evaluation to develop a comprehensive analysis or synthesis.\nViewpoints of experts are questioned thoroughly.",
               "number":1,
               "itemRow":2,
               "weight":null
             },
             {
-              "desc":"Information is taken from source(s) with enough interpretation/evaluation to develop a coherent analysis or synthesis.Viewpoints of experts are subject to questioning.",
+              "desc":"Information is taken from source(s) with enough interpretation/evaluation to develop a coherent analysis or synthesis.\nViewpoints of experts are subject to questioning.",
               "number":2,
               "itemRow":2,
               "weight":null
             },
             {
-              "desc":"Information is taken from source(s) with some interpretation/evaluation, but not enough to develop a coherent analysis or synthesis. Viewpoints of experts are taken as mostly fact, with little questioning.",
+              "desc":"Information is taken from source(s) with some interpretation/evaluation, but not enough to develop a coherent analysis or synthesis.\nViewpoints of experts are taken as mostly fact, with little questioning.",
               "number":3,
               "itemRow":2,
               "weight":null
             },
             {
-              "desc":"Information is taken from source(s) without any interpretation/evaluation. Viewpoints of experts are taken as fact, without question.",
+              "desc":"Information is taken from source(s) without any interpretation/evaluation.\nViewpoints of experts are taken as fact, without question.",
               "number":4,
               "itemRow":2,
               "weight":null
@@ -755,7 +786,7 @@
           "title":"Influence of context and assumptions",
           "weight":50,
           "description":"",
-          "rowNum":1,
+          "rowNum":3,
           "items":[
             {
               "desc":"Thoroughly (systematically and methodically) analyzes own and others' assumptions and carefully evaluates the relevance of contexts when presenting a position.",
@@ -776,7 +807,7 @@
               "weight":null
             },
             {
-              "desc":"Shows an emerging awareness of present assumptions (sometimes labels assertions as assumptions). Begins to identify some contexts when presenting a position.",
+              "desc":"Shows an emerging awareness of present assumptions (sometimes labels assertions as assumptions).\nBegins to identify some contexts when presenting a position.",
               "number":4,
               "itemRow":3,
               "weight":null
@@ -787,16 +818,16 @@
           "title":"Student's position (perspective, thesis/hypothesis)",
           "weight":50,
           "description":"",
-          "rowNum":1,
+          "rowNum":4,
           "items":[
             {
-              "desc":"Specific position (perspective, thesis/hypothesis) is imaginative, taking into account the complexities of an issue. Limits of position (perspective, thesis/hypothesis) are acknowledged. Others' points of view are synthesized within position (perspective, thesis/hypothesis).",
+              "desc":"Specific position (perspective, thesis/hypothesis) is imaginative, taking into account the complexities of an issue.\nLimits of position (perspective, thesis/hypothesis) are acknowledged.\nOthers' points of view are synthesized within position (perspective, thesis/hypothesis).",
               "number":1,
               "itemRow":4,
               "weight":null
             },
             {
-              "desc":"Specific position (perspective, thesis/hypothesis) takes into account the complexities of an issue. Others' points of view are acknowledged within position (perspective, thesis/hypothesis).",
+              "desc":"Specific position (perspective, thesis/hypothesis) takes into account the complexities of an issue.\nOthers' points of view are acknowledged within position (perspective, thesis/hypothesis).",
               "number":2,
               "itemRow":4,
               "weight":null
@@ -819,7 +850,7 @@
           "title":"Conclusions and related outcomes (implications and consequences)",
           "weight":50,
           "description":"",
-          "rowNum":1,
+          "rowNum":5,
           "items":[
             {
               "desc":"Conclusions and related outcomes (consequences and implications) are logical and reflect student’s informed evaluation and ability to place evidence and perspectives discussed in priority order.",
@@ -850,25 +881,25 @@
       ],
       "cols":[
         {
-          "title":"",
+          "title":"Benchmark",
           "points":25,
           "description":"",
           "colNum":1
         },
         {
-          "title":"",
+          "title":"Fair",
           "points":50,
           "description":"",
           "colNum":2
         },
         {
-          "title":"",
+          "title":"Average",
           "points":75,
           "description":"",
           "colNum":3
         },
         {
-          "title":"",
+          "title":"Capstone",
           "points":100,
           "description":"",
           "colNum":4
@@ -878,9 +909,9 @@
       "column_scale":"low-to-high"
     },
     {
-      "_id":"2112dcb9-22db-4816-81cd-6e5c7c247bbb",
+      "_id":"cf6fd4c4-9dbb-422a-b0f2-db7752018c58",
       "systemRubric":true,
-      "title":"ETHICAL REASONING VALUE RUBRIC",
+      "title":"AACU Ethical Reasoning VALUE Rubric",
       "product":"MS",
       "createDate":1471901122,
       "criterias":[
@@ -1077,13 +1108,13 @@
           "colNum":4
         }
       ],
-      "rubric_type":"ETHICAL-REASONING",
+      "rubric_type":"PSN-AS-ANTHR",
       "column_scale":"low-to-high"
     },
     {
-      "_id":"6ccfee98-da6a-41ba-ae3c-b16e31340014",
+      "_id":"5d67b000-2d20-407b-a267-435a00ad9e6e",
       "systemRubric":true,
-      "title":"FOUNDATIONS AND SKILLS FOR LIFELONG LEARNING VALUE RUBRIC",
+      "title":"AACU Foundations and Skills for Lifelong Learning VALUE Rubric",
       "product":"MS",
       "createDate":1471901122,
       "criterias":[
@@ -1280,13 +1311,13 @@
           "colNum":4
         }
       ],
-      "rubric_type":"FOUNDATIONS-SKILLS",
+      "rubric_type":"PSN-AS-ANTHR",
       "column_scale":"low-to-high"
     },
     {
-      "_id":"73e061cc-1176-4c31-889b-42fe1067ab85",
+      "_id":"9e5c109d-b7a7-4a1f-9527-3018673fc3b9",
       "systemRubric":true,
-      "title":"INFORMATION LITERACY VALUE RUBRIC",
+      "title":"AACU Information Literacy VALUE Rubric",
       "product":"MS",
       "createDate":1471901122,
       "criterias":[
@@ -1483,13 +1514,13 @@
           "colNum":4
         }
       ],
-      "rubric_type":"INFORMATION-LITERACY",
+      "rubric_type":"PSN-AS-ANTHR",
       "column_scale":"low-to-high"
     },
     {
-      "_id":"5f6b21a2-504e-4ca4-bf8c-2fa0ff1ebbd9",
+      "_id":"479c1dcb-ca30-4d13-b2a4-54fe4a423e11",
       "systemRubric":true,
-      "title":"INTEGRATIVE LEARNING VALUE RUBRIC",
+      "title":"AACU Integrative Learning VALUE Rubric",
       "product":"MS",
       "createDate":1471901122,
       "criterias":[
@@ -1686,13 +1717,921 @@
           "colNum":4
         }
       ],
-      "rubric_type":"INTEGRATIVE-LEARNING",
+      "rubric_type":"PSN-AS-ANTHR",
       "column_scale":"low-to-high"
     },
     {
-      "_id":"9b8dffec-d752-4497-8e3f-c4babe51b8ad",
+      "_id":"cc8dcffe-2f2d-4e1b-ba3a-0ffdfa4413ed",
       "systemRubric":true,
-      "title":"TEAMWORK VALUE RUBRIC",
+      "title":"AACU Oral Communication VALUE Rubric",
+      "product":"MS",
+      "createDate":1471901122,
+      "criterias":[
+        {
+          "title":"Organization",
+          "weight":50,
+          "description":"",
+          "rowNum":1,
+          "items":[
+            {
+              "desc":"Organizational pattern (specific introduction and conclusion, sequenced material within the body, and transitions) is clearly and consistently observable and is skillful and makes the content of the presentation cohesive.",
+              "number":1,
+              "itemRow":1,
+              "weight":null
+            },
+            {
+              "desc":"Organizational pattern (specific introduction and conclusion, sequenced material within the body, and transitions) is clearly and consistently observable within the presentation.",
+              "number":2,
+              "itemRow":1,
+              "weight":null
+            },
+            {
+              "desc":"Organizational pattern (specific introduction and conclusion, sequenced material within the body, and transitions) is intermittently observable within the presentation.",
+              "number":3,
+              "itemRow":1,
+              "weight":null
+            },
+            {
+              "desc":"Organizational pattern (specific introduction and conclusion, sequenced material within the body, and transitions) is not observable within the presentation.",
+              "number":4,
+              "itemRow":1,
+              "weight":null
+            }
+          ],
+          "itemCounter":[
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "title":"Language",
+          "weight":50,
+          "description":"",
+          "rowNum":2,
+          "items":[
+            {
+              "desc":"Language choices are imaginative, memorable, and compelling, and enhance the effectiveness of the presentation. Language in presentation is appropriate to audience.",
+              "number":1,
+              "itemRow":2,
+              "weight":null
+            },
+            {
+              "desc":"Language choices are thoughtful and generally support the effectiveness of the presentation. Language in presentation is appropriate to audience.",
+              "number":2,
+              "itemRow":2,
+              "weight":null
+            },
+            {
+              "desc":"Language choices are mundane and commonplace and partially support the effectiveness of the presentation. Language in presentation is appropriate to audience.",
+              "number":3,
+              "itemRow":2,
+              "weight":null
+            },
+            {
+              "desc":"Language choices are unclear and minimally support the effectiveness of the presentation. Language in presentation is not appropriate to audience.",
+              "number":4,
+              "itemRow":2,
+              "weight":null
+            }
+          ]
+        },
+        {
+          "title":"Delivery",
+          "weight":50,
+          "description":"",
+          "rowNum":3,
+          "items":[
+            {
+              "desc":"Delivery techniques (posture, gesture, eye contact, and vocal expressiveness) make the presentation compelling, and speaker appears polished and confident.",
+              "number":1,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"Delivery techniques (posture, gesture, eye contact, and vocal expressiveness) make the presentation interesting, and speaker appears comfortable.",
+              "number":2,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"Delivery techniques (posture, gesture, eye contact, and vocal expressiveness) make the presentation understandable, and speaker appears tentative.",
+              "number":3,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"Delivery techniques (posture, gesture, eye contact, and vocal expressiveness) detract from the understandability of the presentation, and speaker appears uncomfortable.",
+              "number":4,
+              "itemRow":3,
+              "weight":null
+            }
+          ]
+        },
+        {
+          "title":"Supporting Material",
+          "weight":50,
+          "description":"",
+          "rowNum":4,
+          "items":[
+            {
+              "desc":"A variety of types of supporting materials (explanations, examples, illustrations, statistics, analogies, quotations from relevant authorities) make appropriate reference to information or analysis that significantly supports the presentation or establishes the presenter's credibility/authority on the topic.",
+              "number":1,
+              "itemRow":4,
+              "weight":null
+            },
+            {
+              "desc":"Supporting materials (explanations, examples, illustrations, statistics, analogies, quotations from relevant authorities) make appropriate reference to information or analysis that generally supports the presentation or establishes the presenter's credibility/authority on the topic.",
+              "number":2,
+              "itemRow":4,
+              "weight":null
+            },
+            {
+              "desc":"Supporting materials (explanations, examples, illustrations, statistics, analogies, quotations from relevant authorities) make appropriate reference to information or analysis that partially supports the presentation or establishes the presenter's credibility/authority on the topic.",
+              "number":3,
+              "itemRow":4,
+              "weight":null
+            },
+            {
+              "desc":"Insufficient supporting materials (explanations, examples, illustrations, statistics, analogies, quotations from relevant authorities) make reference to information or analysis that minimally supports the presentation or establishes the presenter's credibility/authority on the topic.",
+              "number":4,
+              "itemRow":4,
+              "weight":null
+            }
+          ]
+        },
+        {
+          "title":"Central Message",
+          "weight":50,
+          "description":"",
+          "rowNum":5,
+          "items":[
+            {
+              "desc":"Central message is compelling (precisely stated, appropriately repeated, memorable, and strongly supported.)",
+              "number":1,
+              "itemRow":5,
+              "weight":null
+            },
+            {
+              "desc":"Central message is clear and consistent with the supporting material.",
+              "number":2,
+              "itemRow":5,
+              "weight":null
+            },
+            {
+              "desc":"Central message is basically understandable but is not often repeated and is not memorable.",
+              "number":3,
+              "itemRow":5,
+              "weight":null
+            },
+            {
+              "desc":"Central message can be deduced, but is not explicitly stated in the presentation.",
+              "number":4,
+              "itemRow":5,
+              "weight":null
+            }
+          ]
+        }
+      ],
+      "cols":[
+        {
+          "title":"Benchmark",
+          "points":25,
+          "description":"",
+          "colNum":1
+        },
+        {
+          "title":"Fair",
+          "points":50,
+          "description":"",
+          "colNum":2
+        },
+        {
+          "title":"Average",
+          "points":75,
+          "description":"",
+          "colNum":3
+        },
+        {
+          "title":"Capstone",
+          "points":100,
+          "description":"",
+          "colNum":4
+        }
+      ],
+      "rubric_type":"PSN-AS-ANTHR",
+      "column_scale":"low-to-high"
+    },
+    {
+      "_id":"9aae557f-7c8e-4440-8f00-7504be9d3efd",
+      "systemRubric":true,
+      "title":"AACU Problem Solving VALUE Rubric",
+      "product":"MS",
+      "createDate":1471901122,
+      "criterias":[
+        {
+          "title":"Define Problem",
+          "weight":50,
+          "description":"",
+          "rowNum":1,
+          "items":[
+            {
+              "desc":"Demonstrates the ability to construct a clear and insightful problem statement with evidence of all relevant contextual factors.",
+              "number":1,
+              "itemRow":1,
+              "weight":null
+            },
+            {
+              "desc":"Demonstrates the ability to construct a problem statement with evidence \nof most relevant contextual factors, and problem statement is adequately\n detailed.",
+              "number":2,
+              "itemRow":1,
+              "weight":null
+            },
+            {
+              "desc":"Begins to demonstrate the ability to construct a problem statement with \nevidence of most relevant contextual factors, but problem statement is \nsuperficial.",
+              "number":3,
+              "itemRow":1,
+              "weight":null
+            },
+            {
+              "desc":"Demonstrates a limited ability in identifying a problem statement or related contextual factors.",
+              "number":4,
+              "itemRow":1,
+              "weight":null
+            }
+          ],
+          "itemCounter":[
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "title":"Identify Strategies",
+          "weight":50,
+          "description":"",
+          "rowNum":2,
+          "items":[
+            {
+              "desc":"Identifies multiple approaches for solving the problem that apply within a specific context.",
+              "number":1,
+              "itemRow":2,
+              "weight":null
+            },
+            {
+              "desc":"Identifies multiple approaches for solving the problem, only some of which apply within a specific context.",
+              "number":2,
+              "itemRow":2,
+              "weight":null
+            },
+            {
+              "desc":"Identifies only a single approach for solving the problem that does apply within a specific context.",
+              "number":3,
+              "itemRow":2,
+              "weight":null
+            },
+            {
+              "desc":"Identifies one or more approaches for solving the problem that do not apply within a specific context.",
+              "number":4,
+              "itemRow":2,
+              "weight":null
+            }
+          ]
+        },
+        {
+          "title":"Propose Solutions/Hypotheses",
+          "weight":50,
+          "description":"",
+          "rowNum":3,
+          "items":[
+            {
+              "desc":"Proposes one or more solutions/hypotheses that indicates a deep comprehension of the problem. Solution/hypotheses are sensitive to contextual factors as well as all of the following: ethical, logical, and cultural dimensions of the problem.",
+              "number":1,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"Proposes one or more solutions/hypotheses that indicates comprehension of the problem. Solutions/hypotheses are sensitive to contextual factors as well as the one of the following: ethical, logical, or cultural dimensions of the problem.",
+              "number":2,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"Proposes one solution/hypothesis that is “off the shelf” rather than individually designed to address the specific contextual factors of the problem.",
+              "number":3,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"Proposes a solution/hypothesis that is difficult to evaluate because it is vague or only indirectly addresses the problem statement.",
+              "number":4,
+              "itemRow":3,
+              "weight":null
+            }
+          ]
+        },
+        {
+          "title":"Evaluate Potential Solutions",
+          "weight":50,
+          "description":"",
+          "rowNum":4,
+          "items":[
+            {
+              "desc":"Evaluation of solutions is deep and elegant (for example, contains thorough and insightful explanation) and includes, deeply and thoroughly, all of the following: considers history of problem, reviews logic/reasoning, examines feasibility of solution, and weighs impacts of solution.",
+              "number":1,
+              "itemRow":4,
+              "weight":null
+            },
+            {
+              "desc":"Evaluation of solutions is adequate (for example, contains thorough explanation) and includes the following: considers history of problem, reviews logic/reasoning, examines feasibility of solution, and weighs impacts of solution.",
+              "number":2,
+              "itemRow":4,
+              "weight":null
+            },
+            {
+              "desc":"Evaluation of solutions is brief (for example, explanation lacks depth) and includes the following: considers history of problem, reviews logic/reasoning, examines feasibility of solution, and weighs impacts of solution.",
+              "number":3,
+              "itemRow":4,
+              "weight":null
+            },
+            {
+              "desc":"Evaluation of solutions is superficial (for example, contains cursory, surface level explanation) and includes the following: considers history of problem, reviews logic/reasoning, examines feasibility of solution, and weighs impacts of solution.",
+              "number":4,
+              "itemRow":4,
+              "weight":null
+            }
+          ]
+        },
+        {
+          "title":"Implement Solution",
+          "weight":50,
+          "description":"",
+          "rowNum":5,
+          "items":[
+            {
+              "desc":"Implements the solution in a manner that addresses thoroughly and deeply multiple contextual factors of the problem.",
+              "number":1,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"Implements the solution in a manner that addresses multiple contextual factors of the problem in a surface manner.",
+              "number":2,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"Implements the solution in a manner that addresses the problem statement but ignores relevant contextual factors.",
+              "number":3,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"Implements the solution in a manner that does not directly address the problem statement.",
+              "number":4,
+              "itemRow":3,
+              "weight":null
+            }
+          ]
+        },
+        {
+          "title":"Evaluate Outcomes",
+          "weight":50,
+          "description":"",
+          "rowNum":6,
+          "items":[
+            {
+              "desc":"Reviews results relative to the problem defined with thorough, specific considerations of need for further work.",
+              "number":1,
+              "itemRow":5,
+              "weight":null
+            },
+            {
+              "desc":"Reviews results relative to the problem defined with some consideration of need for further work.",
+              "number":2,
+              "itemRow":5,
+              "weight":null
+            },
+            {
+              "desc":"Reviews results in terms of the problem defined with little, if any, consideration of need for further work.",
+              "number":3,
+              "itemRow":5,
+              "weight":null
+            },
+            {
+              "desc":"Reviews results superficially in terms of the problem defined with no consideration of need for further work",
+              "number":4,
+              "itemRow":5,
+              "weight":null
+            }
+          ]
+        }
+      ],
+      "cols":[
+        {
+          "title":"Benchmark",
+          "points":25,
+          "description":"",
+          "colNum":1
+        },
+        {
+          "title":"Fair",
+          "points":50,
+          "description":"",
+          "colNum":2
+        },
+        {
+          "title":"Average",
+          "points":75,
+          "description":"",
+          "colNum":3
+        },
+        {
+          "title":"Capstone",
+          "points":100,
+          "description":"",
+          "colNum":4
+        }
+      ],
+      "rubric_type":"PSN-AS-ANTHR",
+      "column_scale":"low-to-high"
+    },
+    {
+      "_id":"78d9b578-c047-47da-acab-82560381fc47",
+      "systemRubric":true,
+      "title":"AACU Quantitative Literacy VALUE Rubric",
+      "product":"MS",
+      "createDate":1471901122,
+      "criterias":[
+        {
+          "title":"Interpretation\nAbility to explain information presented in mathematical forms (e.g., equations, graphs, diagrams, tables, words)",
+          "weight":50,
+          "description":"",
+          "rowNum":1,
+          "items":[
+            {
+              "desc":"Provides accurate explanations of information presented in mathematical forms. Makes appropriate inferences based on that information. For example, accurately explains the trend data shown in a graph and makes reasonable predictions regarding what the data suggest about future events.",
+              "number":1,
+              "itemRow":1,
+              "weight":null
+            },
+            {
+              "desc":"Provides accurate explanations of information presented in mathematical forms. For instance, accurately explains the trend data shown in a graph.",
+              "number":2,
+              "itemRow":1,
+              "weight":null
+            },
+            {
+              "desc":"Provides somewhat accurate explanations of information presented in mathematical forms, but occasionally makes minor errors related to computations or units. For instance, accurately explains trend data shown in a graph, but may miscalculate the slope of the trend line.",
+              "number":3,
+              "itemRow":1,
+              "weight":null
+            },
+            {
+              "desc":"Attempts to explain information presented in mathematical forms, but draws incorrect conclusions about what the information means. For example, attempts to explain the trend data shown in a graph, but will frequently misinterpret the nature of that trend, perhaps by confusing positive and negative trends.",
+              "number":4,
+              "itemRow":1,
+              "weight":null
+            }
+          ],
+          "itemCounter":[
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "title":"Representation\nAbility to convert relevant information into various mathematical forms (e.g., equations, graphs, diagrams, tables, words)",
+          "weight":50,
+          "description":"",
+          "rowNum":2,
+          "items":[
+            {
+              "desc":"Skillfully converts relevant information into an insightful mathematical portrayal in a way that contributes to a further or deeper understanding.",
+              "number":1,
+              "itemRow":2,
+              "weight":null
+            },
+            {
+              "desc":"Competently converts relevant information into an appropriate and desired mathematical portrayal.",
+              "number":2,
+              "itemRow":2,
+              "weight":null
+            },
+            {
+              "desc":"Completes conversion of information but resulting mathematical portrayal is only partially appropriate or accurate.",
+              "number":3,
+              "itemRow":2,
+              "weight":null
+            },
+            {
+              "desc":"Completes conversion of information but resulting mathematical portrayal is inappropriate or inaccurate.",
+              "number":4,
+              "itemRow":2,
+              "weight":null
+            }
+          ]
+        },
+        {
+          "title":"Calculation",
+          "weight":50,
+          "description":"",
+          "rowNum":3,
+          "items":[
+            {
+              "desc":"Calculations attempted are essentially all successful and sufficiently comprehensive to solve the problem. Calculations are also presented elegantly (clearly, concisely, etc.)",
+              "number":1,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"Calculations attempted are essentially all successful and sufficiently comprehensive to solve the problem.",
+              "number":2,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"Calculations attempted are either unsuccessful or\nrepresent only a portion of the calculations required to comprehensively solve the problem.",
+              "number":3,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"Calculations are attempted but are both unsuccessful and are not comprehensive.",
+              "number":4,
+              "itemRow":3,
+              "weight":null
+            }
+          ]
+        },
+        {
+          "title":"Application / Analysis\nAbility to make judgments and draw appropriate conclusions based on the quantitative analysis of data, while recognizing the limits of this analysis",
+          "weight":50,
+          "description":"",
+          "rowNum":4,
+          "items":[
+            {
+              "desc":"Uses the quantitative analysis of data as the basis for deep and thoughtful judgments, drawing insightful, carefully qualified conclusions from this work.",
+              "number":1,
+              "itemRow":4,
+              "weight":null
+            },
+            {
+              "desc":"Uses the quantitative analysis of data as the basis for competent judgments, drawing reasonable and appropriately qualified conclusions from this work.",
+              "number":2,
+              "itemRow":4,
+              "weight":null
+            },
+            {
+              "desc":"Uses the quantitative analysis of data as the basis for workmanlike (without inspiration or nuance, ordinary) judgments, drawing plausible conclusions from this work.",
+              "number":3,
+              "itemRow":4,
+              "weight":null
+            },
+            {
+              "desc":"Uses the quantitative analysis of data as the basis for tentative, basic judgments, although is hesitant or uncertain about drawing conclusions from this work.",
+              "number":4,
+              "itemRow":4,
+              "weight":null
+            }
+          ]
+        },
+        {
+          "title":"Assumptions\nAbility to make and evaluate important assumptions in estimation, modeling, and data analysis",
+          "weight":50,
+          "description":"",
+          "rowNum":5,
+          "items":[
+            {
+              "desc":"Explicitly describes assumptions and provides compelling rationale for why each assumption is appropriate. Shows awareness that confidence in final conclusions is limited by the accuracy of the assumptions.",
+              "number":1,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"Explicitly describes assumptions and provides compelling rationale for why assumptions are appropriate.",
+              "number":2,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"Explicitly describes assumptions.",
+              "number":3,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"Attempts to describe assumptions.",
+              "number":4,
+              "itemRow":3,
+              "weight":null
+            }
+          ]
+        },
+        {
+          "title":"Communication\nExpressing quantitative evidence in support of the argument or purpose of the work (in terms of what evidence is used and how it is formatted, presented, and contextualized)",
+          "weight":50,
+          "description":"",
+          "rowNum":6,
+          "items":[
+            {
+              "desc":"Uses quantitative information in connection with the argument or purpose of the work, presents it in an effective format, and explicates it with consistently high quality.",
+              "number":1,
+              "itemRow":5,
+              "weight":null
+            },
+            {
+              "desc":"Uses quantitative information in connection with the argument or purpose of the work, though data may be presented in a less than completely effective format or some parts of the explication may be uneven.",
+              "number":2,
+              "itemRow":5,
+              "weight":null
+            },
+            {
+              "desc":"Uses quantitative information, but does not effectively connect it to the argument or purpose of the work.",
+              "number":3,
+              "itemRow":5,
+              "weight":null
+            },
+            {
+              "desc":"Presents an argument for which quantitative evidence is pertinent, but does not provide adequate explicit numerical support. (May use quasi-quantitative words such as \"many,\" \"few,\" \"increasing,\" \"small,\" and the like in place of actual quantities.)",
+              "number":4,
+              "itemRow":5,
+              "weight":null
+            }
+          ]
+        }
+      ],
+      "cols":[
+        {
+          "title":"Benchmark",
+          "points":25,
+          "description":"",
+          "colNum":1
+        },
+        {
+          "title":"Fair",
+          "points":50,
+          "description":"",
+          "colNum":2
+        },
+        {
+          "title":"Average",
+          "points":75,
+          "description":"",
+          "colNum":3
+        },
+        {
+          "title":"Capstone",
+          "points":100,
+          "description":"",
+          "colNum":4
+        }
+      ],
+      "rubric_type":"PSN-AS-ANTHR",
+      "column_scale":"low-to-high"
+    },
+    {
+      "_id":"88fd568e-236e-474f-a9ad-6b1280c9880b",
+      "systemRubric":true,
+      "title":"AACU Reading VALUE Rubric",
+      "product":"MS",
+      "createDate":1471901122,
+      "criterias":[
+        {
+          "title":"Comprehension",
+          "weight":50,
+          "description":"",
+          "rowNum":1,
+          "items":[
+            {
+              "desc":"Recognizes possible implications of the text for contexts, perspectives, or issues beyond the assigned task within the classroom or beyond the author’s explicit message (e.g., might recognize broader issues at play, or might pose challenges to the author’s message and presentation).",
+              "number":1,
+              "itemRow":1,
+              "weight":null
+            },
+            {
+              "desc":"Uses the text, general background knowledge, and/or specific knowledge of the author’s context to draw more complex inferences about the author’s message and attitude.",
+              "number":2,
+              "itemRow":1,
+              "weight":null
+            },
+            {
+              "desc":"Evaluates how textual features (e.g., sentence and paragraph structure or tone) contribute to the author’s message; draws basic inferences about context and purpose of text.",
+              "number":3,
+              "itemRow":1,
+              "weight":null
+            },
+            {
+              "desc":"Apprehends vocabulary appropriately to paraphrase or summarize the information the text communicates.",
+              "number":4,
+              "itemRow":1,
+              "weight":null
+            }
+          ],
+          "itemCounter":[
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "title":"Genres",
+          "weight":50,
+          "description":"",
+          "rowNum":2,
+          "items":[
+            {
+              "desc":"Uses ability to identify texts within and across genres, monitoring and adjusting reading strategies and expectations based on generic nuances of particular texts.",
+              "number":1,
+              "itemRow":2,
+              "weight":null
+            },
+            {
+              "desc":"Articulates distinctions among genres and their characteristic conventions.",
+              "number":2,
+              "itemRow":2,
+              "weight":null
+            },
+            {
+              "desc":"Reflects on reading experiences across a variety of genres, reading both with and against the grain experimentally and intentionally.",
+              "number":3,
+              "itemRow":2,
+              "weight":null
+            },
+            {
+              "desc":"Applies tacit genre knowledge to a variety of classroom reading assignments in productive, if unreflective, ways.",
+              "number":4,
+              "itemRow":2,
+              "weight":null
+            }
+          ]
+        },
+        {
+          "title":"Relationship to Text\nMaking meanings with texts in their contexts",
+          "weight":50,
+          "description":"",
+          "rowNum":3,
+          "items":[
+            {
+              "desc":"Evaluates texts for scholarly significance and relevance within and across the various disciplines, evaluating them according to their contributions and consequences.",
+              "number":1,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"Uses texts in the context of scholarship to develop a foundation of disciplinary knowledge and to raise and explore important questions.",
+              "number":2,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"Engages texts with the intention and expectation of building topical and world knowledge.",
+              "number":3,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"world knowledge.\nApproaches texts in the context of assignments with the intention and expectation of finding right answers and learning facts and concepts to display for credit.",
+              "number":4,
+              "itemRow":3,
+              "weight":null
+            }
+          ]
+        },
+        {
+          "title":"Analysis\nInteracting with texts in parts and as wholes",
+          "weight":50,
+          "description":"",
+          "rowNum":4,
+          "items":[
+            {
+              "desc":"Evaluates strategies for relating ideas, text structure, or other textual features in order to build knowledge or insight within and across texts and disciplines.",
+              "number":1,
+              "itemRow":4,
+              "weight":null
+            },
+            {
+              "desc":"Identifies relations among ideas, text structure, or other textual features, to evaluate how they support an advanced understanding of the text as a whole.",
+              "number":2,
+              "itemRow":4,
+              "weight":null
+            },
+            {
+              "desc":"Recognizes relations among parts or aspects of a text, such as effective or ineffective arguments or literary features, in considering how these contribute to a basic understanding of the text as a whole.",
+              "number":3,
+              "itemRow":4,
+              "weight":null
+            },
+            {
+              "desc":"Identifies aspects of a text (e.g., content, structure, or relations among ideas) as needed to respond to questions posed in assigned tasks.",
+              "number":4,
+              "itemRow":4,
+              "weight":null
+            }
+          ]
+        },
+        {
+          "title":"Interpretation\nMaking sense with texts as blueprints for meaning",
+          "weight":50,
+          "description":"",
+          "rowNum":5,
+          "items":[
+            {
+              "desc":"Provides evidence not only that s/he can read by using an appropriate epistemological lens but that s/he can also engage in reading as part of a continuing dialogue within and beyond a discipline or a community of readers.",
+              "number":1,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"Articulates an understanding of the multiple ways of reading and the range of interpretive strategies particular to one's discipline(s) or in a given community of readers.",
+              "number":2,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"Demonstrates that s/he can read purposefully, choosing among interpretive strategies depending on the purpose of the reading.",
+              "number":3,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"Can identify purpose(s) for reading, relying on an external authority such as an instructor for clarification of the task.",
+              "number":4,
+              "itemRow":3,
+              "weight":null
+            }
+          ]
+        },
+        {
+          "title":"Reader's Voice\nParticipating in academic discourse about texts",
+          "weight":50,
+          "description":"",
+          "rowNum":6,
+          "items":[
+            {
+              "desc":"Discusses texts with an independent intellectual and ethical disposition so as to further or maintain disciplinary conversations.",
+              "number":1,
+              "itemRow":5,
+              "weight":null
+            },
+            {
+              "desc":"Elaborates on the texts (through interpretation or questioning) so as to deepen or enhance an ongoing discussion.",
+              "number":2,
+              "itemRow":5,
+              "weight":null
+            },
+            {
+              "desc":"Discusses texts in structured conversations (such as in a classroom) in ways that contribute to a basic, shared understanding of the text.",
+              "number":3,
+              "itemRow":5,
+              "weight":null
+            },
+            {
+              "desc":"Comments about texts in ways that preserve the author's meanings and link them to the assignment.",
+              "number":4,
+              "itemRow":5,
+              "weight":null
+            }
+          ]
+        }
+      ],
+      "cols":[
+        {
+          "title":"Benchmark",
+          "points":25,
+          "description":"",
+          "colNum":1
+        },
+        {
+          "title":"Fair",
+          "points":50,
+          "description":"",
+          "colNum":2
+        },
+        {
+          "title":"Average",
+          "points":75,
+          "description":"",
+          "colNum":3
+        },
+        {
+          "title":"Capstone",
+          "points":100,
+          "description":"",
+          "colNum":4
+        }
+      ],
+      "rubric_type":"PSN-AS-ANTHR",
+      "column_scale":"low-to-high"
+    },
+    {
+      "_id":"a8a31141-1e94-408d-867b-8de7ded99620",
+      "systemRubric":true,
+      "title":"AACU Teamwork VALUE Rubric",
       "product":"MS",
       "createDate":1471901122,
       "criterias":[
@@ -1889,13 +2828,13 @@
           "colNum":4
         }
       ],
-      "rubric_type":"TEAMWORK-VALUE",
+      "rubric_type":"PSN-AS-ANTHR",
       "column_scale":"low-to-high"
     },
     {
-      "_id":"6b58fd7a-c9b5-430b-a3d1-43405050cb59",
+      "_id":"ac603316-a205-4f58-98e8-5909dad43ffe",
       "systemRubric":true,
-      "title":"WRITTEN COMMUNICATION VALUE RUBRIC",
+      "title":"AACU Written Communication VALUE Rubric",
       "product":"MS",
       "createDate":1471901122,
       "criterias":[
@@ -2092,7 +3031,242 @@
           "colNum":4
         }
       ],
-      "rubric_type":"WRITTEN-COMMUNICATION",
+      "rubric_type":"PSN-AS-ANTHR",
+      "column_scale":"low-to-high"
+    },
+    {
+      "_id":"811416d2-9341-4a02-8c67-eabd5af5f9ea",
+      "systemRubric":true,
+      "title":"AACU Inquiry and Analysis VALUE Rubric",
+      "product":"MS",
+      "createDate":1471901122,
+      "criterias":[
+        {
+          "title":"Topic selection",
+          "weight":50,
+          "description":"",
+          "rowNum":1,
+          "items":[
+            {
+              "desc":"Identifies a creative, focused, and manageable topic that addresses potentially significant yet previously less-explored aspects of the topic.",
+              "number":1,
+              "itemRow":1,
+              "weight":null
+            },
+            {
+              "desc":"Identifies a focused and manageable/doable topic that appropriately addresses relevant aspects of the topic.",
+              "number":2,
+              "itemRow":1,
+              "weight":null
+            },
+            {
+              "desc":"Identifies a topic that while manageable/doable, is too narrowly focused and leaves out relevant aspects of the topic.",
+              "number":3,
+              "itemRow":1,
+              "weight":null
+            },
+            {
+              "desc":"Identifies a topic that is far too general and wide-ranging as to be manageable and doable.",
+              "number":4,
+              "itemRow":1,
+              "weight":null
+            }
+          ],
+          "itemCounter":[
+            1,
+            2,
+            3,
+            4
+          ]
+        },
+        {
+          "title":"Existing Knowledge, Research, and/or Views",
+          "weight":50,
+          "description":"",
+          "rowNum":2,
+          "items":[
+            {
+              "desc":"Synthesizes in-depth information from relevant sources representing various points of view/approaches.",
+              "number":1,
+              "itemRow":2,
+              "weight":null
+            },
+            {
+              "desc":"Presents in-depth information from relevant sources representing various points of view/approaches.",
+              "number":2,
+              "itemRow":2,
+              "weight":null
+            },
+            {
+              "desc":"Presents information from relevant sources representing limited points of view/approaches.",
+              "number":3,
+              "itemRow":2,
+              "weight":null
+            },
+            {
+              "desc":"Presents information from irrelevant sources representing limited points of view/approaches.",
+              "number":4,
+              "itemRow":2,
+              "weight":null
+            }
+          ]
+        },
+        {
+          "title":"Design Process",
+          "weight":50,
+          "description":"",
+          "rowNum":3,
+          "items":[
+            {
+              "desc":"All elements of the methodology or theoretical framework are skillfully developed. Appropriate methodology or theoretical frameworks may be synthesized from across disciplines or from relevant subdisciplines.",
+              "number":1,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"Critical elements of the methodology or theoretical framework are appropriately developed, however, more subtle elements are ignored or unaccounted for.",
+              "number":2,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"Critical elements of the methodology or theoretical framework are missing, incorrectly developed, or unfocused.",
+              "number":3,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"Inquiry design demonstrates a misunderstanding of the methodology or theoretical framework.",
+              "number":4,
+              "itemRow":3,
+              "weight":null
+            }
+          ]
+        },
+        {
+          "title":"Analysis",
+          "weight":50,
+          "description":"",
+          "rowNum":4,
+          "items":[
+            {
+              "desc":"Organizes and synthesizes evidence to reveal insightful patterns, differences, or similarities related to focus.",
+              "number":1,
+              "itemRow":4,
+              "weight":null
+            },
+            {
+              "desc":"Organizes evidence to reveal important patterns, differences, or similarities related to focus.",
+              "number":2,
+              "itemRow":4,
+              "weight":null
+            },
+            {
+              "desc":"Organizes evidence, but the organization is not effective in revealing important patterns, differences, or similarities.",
+              "number":3,
+              "itemRow":4,
+              "weight":null
+            },
+            {
+              "desc":"Lists evidence, but it is not organized and/or is unrelated to focus.",
+              "number":4,
+              "itemRow":4,
+              "weight":null
+            }
+          ]
+        },
+        {
+          "title":"Conclusions",
+          "weight":50,
+          "description":"",
+          "rowNum":5,
+          "items":[
+            {
+              "desc":"States a conclusion that is a logical extrapolation from the inquiry findings.",
+              "number":1,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"States a conclusion focused solely on the inquiry findings. The conclusion arises specifically from and responds specifically to the inquiry findings.",
+              "number":2,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"States a general conclusion that, because it is so general, also applies beyond the scope of the inquiry findings.",
+              "number":3,
+              "itemRow":3,
+              "weight":null
+            },
+            {
+              "desc":"States an ambiguous, illogical, or unsupportable conclusion from inquiry findings.",
+              "number":4,
+              "itemRow":3,
+              "weight":null
+            }
+          ]
+        },
+        {
+          "title":"Limitations and Implications",
+          "weight":50,
+          "description":"",
+          "rowNum":6,
+          "items":[
+            {
+              "desc":"Insightfully discusses in detail relevant and supported limitations and implications.",
+              "number":1,
+              "itemRow":5,
+              "weight":null
+            },
+            {
+              "desc":"Discusses relevant and supported limitations and implications.",
+              "number":2,
+              "itemRow":5,
+              "weight":null
+            },
+            {
+              "desc":"Presents relevant and supported limitations and implications.",
+              "number":3,
+              "itemRow":5,
+              "weight":null
+            },
+            {
+              "desc":"Presents limitations and implications, but they are possibly irrelevant and unsupported.",
+              "number":4,
+              "itemRow":5,
+              "weight":null
+            }
+          ]
+        }
+      ],
+      "cols":[
+        {
+          "title":"Benchmark",
+          "points":25,
+          "description":"",
+          "colNum":1
+        },
+        {
+          "title":"Fair",
+          "points":50,
+          "description":"",
+          "colNum":2
+        },
+        {
+          "title":"Average",
+          "points":75,
+          "description":"",
+          "colNum":3
+        },
+        {
+          "title":"Capstone",
+          "points":100,
+          "description":"",
+          "colNum":4
+        }
+      ],
+      "rubric_type":"PSN-AS-ANTHR",
       "column_scale":"low-to-high"
     }
   ],

@@ -17,6 +17,7 @@ export default class GradingComponent extends Component {
 
     render() {
         const data = fetchData(this.props.rubricId).payload;
+
         if ((this.props.rubricId !== undefined) && (this.props.rubricId !== "") ) {
             const create = createScore(data);
             const build = buildScore(data);

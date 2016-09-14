@@ -1,19 +1,20 @@
 import {mapArr} from './helpers';
 
-export function pointSelect (title, point, score, quality, desc) {
+export function pointSelect (title, point, score, quality, desc, rowNum) {
     const scoreCard = score;
     const newScore = {
         title: title,
         value: point,
         quality: quality,
-        desc: desc
+        desc: desc,
+        rowNum: rowNum
     };
 
     scoreCard.total.value = 0;
-    console.log('scoreCard', scoreCard);
     mapArr(scoreCard.scores, function(item) {
-
-        if (newScore.title === item.title) {
+    console.log('newScore', newScore)
+        console.log('item', item)
+        if (newScore.rowNum === item.rowNum) {
             item.value = newScore.value;
             item.quality = newScore.quality;
             item.desc = newScore.desc;
@@ -25,6 +26,7 @@ export function pointSelect (title, point, score, quality, desc) {
 
     // round total value up
     scoreCard.total.value = Math.ceil(scoreCard.total.value);
+    console.log(scoreCard);
     return {
         type: 'POINT_SELECTED',
         payload: {stateScore: scoreCard}

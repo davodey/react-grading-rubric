@@ -8,6 +8,7 @@ const GradingCriteria = (props) => {
     const data = props.buildScore,
 
     gradingCriteria = mapArr(data, function(item){
+
         return (
             <GradingCriteriaItem
                 score={props.score}
@@ -17,6 +18,7 @@ const GradingCriteria = (props) => {
                 pointData={item.values}
                 title={item.title}
                 key={itemId++}
+                rowNum={item.rowNum}
             />
         )
     });

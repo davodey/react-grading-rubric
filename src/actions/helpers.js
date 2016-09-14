@@ -17,7 +17,7 @@ export function objToArr (obj) {
     var arr = [];
     returnProp(obj, function(item) {
         if (item.title !== 'total') {
-            arr.push({title:item.title, value:item.value, quality:item.quality, desc:item.desc});
+            arr.push({title:item.title, value:item.value, quality:item.quality, desc:item.desc, rowNum:item.rowNum});
         }
         return arr;
     });

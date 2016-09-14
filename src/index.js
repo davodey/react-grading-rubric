@@ -6,7 +6,7 @@ class AppContainer extends Component {
     constructor(props) {
         super(props);
         this.values = {
-            rubricId: '0ebbb4bd-eb93-488b-b21d-79e3a2ea78e3'
+            rubricId: '811416d2-9341-4a02-8c67-eabd5af5f9ea'
         }
     }
 

@@ -7,7 +7,7 @@ import {objToArr} from '../actions/helpers';
 const PointScale = (props) => {
     const data = props.pointData;
     const zero = 0;
-    let scoreArr;
+    let scoreArr = [];
 
     // on inital load render points from existing score Array
     // once an item is selected use the state Array
@@ -17,10 +17,11 @@ const PointScale = (props) => {
         scoreArr = objToArr(props.stateScore.scores);
     }
 
+
     // render the point bars
    const pointScaleItem = scoreArr.map((item) => {
         return data.map((value) => {
-            if (item.title === value.cat) {
+            if (item.rowNum === value.row) {
                 if (item.value >= value.points) {
                     return (
                         <PointScaleItem
@@ -33,6 +34,7 @@ const PointScale = (props) => {
                             value={value.points}
                             pointSelect={props.pointSelect}
                             key={value.points}
+                            rowNum={value.row}
                         />
                     )
                 } else {
@@ -47,6 +49,7 @@ const PointScale = (props) => {
                             value={value.points}
                             pointSelect={props.pointSelect}
                             key={value.points}
+                            rowNum={value.row}
                         />
                     )
                 }
@@ -56,7 +59,7 @@ const PointScale = (props) => {
 
     // render the score for the row
     const totalPointItem = scoreArr.map((item) => {
-        if (item.title === props.cat) {
+        if (item.rowNum === props.rowNum) {
             return (
                 <TotalPointScaleScore
                     score={item.value}
@@ -68,7 +71,7 @@ const PointScale = (props) => {
 
     // render the descriptions associated with the score
     const pointDescription = scoreArr.map((item) => {
-        if (item.title === props.cat)  {
+        if (item.rowNum === props.rowNum)  {
             return (
                 <PointDescription
                     quality={item.quality}
@@ -78,9 +81,10 @@ const PointScale = (props) => {
             )
         }
     });
-
+    console.log('PS', props);
     // render
     return (
+
         <div>
             <div className="point-scale">
                 <PointScaleItem
@@ -92,6 +96,7 @@ const PointScale = (props) => {
                     score={props.score}
                     value={0}
                     pointSelect={props.pointSelect}
+                    rowNum={props.rowNum}
                 />
 
                 {pointScaleItem}

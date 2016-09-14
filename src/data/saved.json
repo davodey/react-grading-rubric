@@ -1,8 +1,8 @@
 {
-  "assignmentId":"<props.assignmentId>",
-  "sectionId":"<props.sectionId>",
-  "userId":"<props.userId>",
-  "rubricId":"<props.rubricId>",
+  "assignmentId":"assignmentId",
+  "sectionId":"sectionId",
+  "userId":"userid",
+  "rubricId":"811416d2-9341-4a02-8c67-eabd5af5f9ea",
   "scores":[
     {
       "title":"Organization",
