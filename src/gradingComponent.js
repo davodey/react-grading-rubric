@@ -15,20 +15,21 @@ export default class GradingComponent extends Component {
         super(props);
     }
 
-    render() {
-        const data = fetchData(this.props.rubricId).payload;
 
+    render() {
+        console.log('CG', this.props);
+        const data = fetchData(this.props.rubricId, this.props).payload;
         if ((this.props.rubricId !== undefined) && (this.props.rubricId !== "") ) {
             const create = createScore(data);
             const build = buildScore(data);
             return (
                 <Provider store={createStoreWithMiddleware(reducers)}>
-                    <GradeRubricContainer buildScore={build} score={create} loadData={data}/>
+                    <GradeRubricContainer buildScore={build} score={create} options={this.props}/>
                 </Provider>
             );
         } else {
             return (
-               <div> Sorry no data</div>
+                <div> Sorry no data</div>
             );
         }
     }

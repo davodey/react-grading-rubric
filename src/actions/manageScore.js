@@ -3,6 +3,7 @@ import {mapArr, returnProp} from './helpers';
 
 // manages the score once a point item is selected.
 export function createScore (data) {
+    console.log('data', data);
     let scores = [];
 
     function checkSaved(data) {
@@ -38,11 +39,13 @@ export function createScore (data) {
     });
 
     const savedScore = Object.assign({}, {scores});
+
     savedScore.total = {title:'total', value: total, quality:null, desc: null};
     savedScore.assignmentId = data.saved.assignmentId;
     savedScore.rubricId = data.saved.rubricId;
     savedScore.sectionId = data.saved.sectionId;
     savedScore.userId = data.saved.userId;
+
     return savedScore;
 }
 

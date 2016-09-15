@@ -35,21 +35,32 @@ export function getPreviousSiblings(elem, filter) {
 
 export function hover(event) {
     const current = event.currentTarget;
-    let arr = getPreviousSiblings(current);
-    mapArr(arr, function(item){
-        item.classList.add('hover');
-    })
+    if (current.hasAttribute("disabled") !== true) {
+        let arr = getPreviousSiblings(current);
+        mapArr(arr, function(item){
+            item.classList.add('hover');
+        })
+    }
+
 }
 
 export function unHover(event) {
     const current = event.currentTarget;
-    let arr = getPreviousSiblings(current);
-    mapArr(arr, function(item){
-        item.classList.remove('hover');
-    })
+    if (current.hasAttribute("disabled") !== true) {
+        let arr = getPreviousSiblings(current);
+        mapArr(arr, function (item) {
+            item.classList.remove('hover');
+        })
+    }
 }
 
 export function round(value, precision) {
     var multiplier = Math.pow(10, precision || 0);
     return Math.floor(value * multiplier) / multiplier;
+}
+
+export function getPromise(data, fn) {
+    return data.then((promise) => {
+        return fn(promise);
+    });
 }

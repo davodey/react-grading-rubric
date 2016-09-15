@@ -19,6 +19,7 @@ const GradingCriteria = (props) => {
                 title={item.title}
                 key={itemId++}
                 rowNum={item.rowNum}
+                options={props.options}
             />
         )
     });

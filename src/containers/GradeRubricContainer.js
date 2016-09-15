@@ -9,7 +9,6 @@ class GradingComponentContainer extends Component {
         super(props);
     }
     render() {
-
         return (
             <section className="grading-component fixed">
                 <div className="grading-headline">
@@ -21,13 +20,13 @@ class GradingComponentContainer extends Component {
                 <div className="grading-criteria-header">
 
                     {/*load the grading critera*/}
-                    <GradingCriteria buildScore={this.props.buildScore} score={this.props.score} descriptionToggle={this.props.descriptions} loadData={this.props.loadData}/>
+                    <GradingCriteria options={this.props.options} buildScore={this.props.buildScore} score={this.props.score} descriptionToggle={this.props.descriptions} loadData={this.props.loadData}/>
                 </div>
                 <div className="total-score margin-bottom">
                     <div className="pe-label pe-label--bold">Rubric Score</div>
 
                     {/*load the total score*/}
-                     <TotalScore score={this.props.score}/>
+                     <TotalScore options={this.props.options} score={this.props.score}/>
                 </div>
             </section>
         );

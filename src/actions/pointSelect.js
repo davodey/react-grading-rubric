@@ -1,4 +1,5 @@
 import {mapArr} from './helpers';
+import {saveScore} from './postData';
 
 export function pointSelect (title, point, score, quality, desc, rowNum) {
     const scoreCard = score;
@@ -12,8 +13,6 @@ export function pointSelect (title, point, score, quality, desc, rowNum) {
 
     scoreCard.total.value = 0;
     mapArr(scoreCard.scores, function(item) {
-    console.log('newScore', newScore)
-        console.log('item', item)
         if (newScore.rowNum === item.rowNum) {
             item.value = newScore.value;
             item.quality = newScore.quality;
@@ -26,7 +25,9 @@ export function pointSelect (title, point, score, quality, desc, rowNum) {
 
     // round total value up
     scoreCard.total.value = Math.ceil(scoreCard.total.value);
-    console.log(scoreCard);
+
+    saveScore(scoreCard);
+
     return {
         type: 'POINT_SELECTED',
         payload: {stateScore: scoreCard}

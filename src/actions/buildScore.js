@@ -50,7 +50,6 @@ export function buildScore (data) {
             });
 
         buildScoreArr.push({title: item.title, description: item.description, weight: item.weight, values: buildArr, rowNum: item.rowNum})
-        console.log('buildScoreArr', buildScoreArr);
     });
 
    return buildScoreArr;

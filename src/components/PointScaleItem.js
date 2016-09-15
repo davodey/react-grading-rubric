@@ -2,7 +2,6 @@ import React from 'react';
 import { hover, unHover } from '../actions/helpers';
 
 const PointScaleItem = (props) => {
-    console.log(props);
     return (
         <button tabIndex="0"
              onMouseLeave={unHover}
@@ -10,7 +9,8 @@ const PointScaleItem = (props) => {
              onFocus={hover}
              onBlur={unHover}
              onClick={() => {props.pointSelect(props.title, props.value, props.score, props.quality, props.description, props.rowNum)}}
-             className={props.className}>
+             className={props.className}
+             disabled={props.disabled}>
             <span className="score">{props.colNum}</span>
             <div className="visual-marker rectangle"></div>
         </button>

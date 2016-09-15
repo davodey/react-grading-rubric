@@ -20,6 +20,23 @@
   flex-grow:1;
   cursor:pointer;
   
+  &:disabled {
+	&.disabled {
+	  cursor:default;
+	  .visual-marker {
+		background:$disabled;
+	  }
+	  .score {
+		color:$disabled;
+	  }
+	}
+	
+	&:hover {
+	  cursor:default;
+	  
+	}
+
+  }
   .score {
 	color:$green;
 	font-weight: bold;
@@ -74,9 +91,6 @@
 	background:none;
 	border:0;
 	line-height:auto !important;
-	&.disabled {
-
-	}
 	
   }
   

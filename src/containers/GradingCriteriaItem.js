@@ -31,6 +31,7 @@ class GradingCriteriaItem extends Component {
                     pointSelect={this.props.pointSelect}
                     pointData={this.props.pointData}
                     rowNum={this.props.rowNum}
+                    options={this.props.options}
                 />
             </div>
         )

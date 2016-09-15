@@ -33,6 +33,7 @@
     "webpack-dev-server": "^1.14.0"
   },
   "dependencies": {
+    "axios": "^0.14.0",
     "babel-preset-stage-1": "^6.1.18",
     "lodash": "^4.15.0",
     "pearson-compounds": "^0.1.0",
